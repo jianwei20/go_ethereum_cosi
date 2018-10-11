@@ -1,0 +1,176 @@
+INFO [10-08|17:03:02] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-4802f345/darwin-amd64/go1.9.2
+INFO [10-08|17:03:02] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node3/geth/chaindata cache=128 handles=1024
+WARN [10-08|17:03:02] Upgrading chain database to use sequential keys 
+INFO [10-08|17:03:02] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [10-08|17:03:02] config bft is                            bft=true
+WARN [10-08|17:03:02] Upgrading db log bloom bins 
+INFO [10-08|17:03:02] Bloom-bin upgrade completed              elapsed=228.777µs
+INFO [10-08|17:03:02] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [10-08|17:03:02] Database conversion successful 
+INFO [10-08|17:03:02] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:03:02] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:03:02] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:03:02] in NewTxPool, call resetState 
+INFO [10-08|17:03:02] in NewTxPool, call pool.eventLoog() 
+INFO [10-08|17:03:02] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node3/geth/bftData   cache=128 handles=1024
+INFO [10-08|17:03:03] addVote to                               height=0 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+ready: 1 need: 2.6666667
+INFO [10-08|17:03:03] consensusManager not ready  
+ready: 1 need: 2.6666667
+INFO [10-08|17:03:03] Starting P2P networking 
+INFO [10-08|17:03:03] ---In BFTvalidatorCommitBlock--- 
+INFO [10-08|17:03:03] RLPx listener up                         self="enode://94dd98401cf6ca0418580bb77ad0606a35ae8f442b22ab0f81011d8d2c78e70ff779c1d53d015640d79a13f0be99161ae3ff3adb60633ca03a7b542cbe116882@[::]:30305?discport=0"
+INFO [10-08|17:03:03] HTTP endpoint opened: http://127.0.0.1:8547 
+INFO [10-08|17:03:03] IPC endpoint opened: /Users/sujianwei20/new_misgcode/msigcode/examples/data/node3/geth.ipc 
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+ready: 2 need: 2.6666667
+INFO [10-08|17:03:03] consensusManager not ready  
+ready: 2 need: 2.6666667
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:03] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+INFO [10-08|17:03:03] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:03] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+ready: 4 need: 2.6666667
+ready: 4 need: 2.6666667
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:03:04] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:03:04] -----------------consensusManager Ready------------------------- 
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:03:04] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:03:04] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:05:14] Transaction pool price threshold updated price=18000000000
+INFO [10-08|17:05:14] Starting mining operation 
+INFO [10-08|17:05:16] Handle BFT Msg,                          msg="msg #11 (172922 bytes)"
+INFO [10-08|17:05:16] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 0
+cmHR: H: 1 R: 0
+INFO [10-08|17:05:16] --------------------------------------- 
+# collMsig from = Peer 6d11b37ef4fc909a [eth/63]
+cmHR: H: 1 R: 0
+this is rm.proposerPeer  Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:05:16] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [10-08|17:05:16] cm add BlockProposal                     h=1 r=0
+INFO [10-08|17:05:16] in HasQuorum 
+INFO [10-08|17:05:16] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [10-08|17:05:16] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:1]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+INFO [10-08|17:05:16] in collectMsig, i am wintness 
+in collect Misg from Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:05:16] Return MsigProposalMsg to                LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [10-08|17:05:16] In addBlockCandidates!! 
+INFO [10-08|17:05:16] -------in handle NewBlockProposalMsg, success!------- 
+INFO [10-08|17:05:16] Handle BFT Msg,                          msg="msg #18 (225 bytes)"
+INFO [10-08|17:05:16] ------Received MsigProposalMsg------ 
+I received msp from  Peer 6d11b37ef4fc909a [eth/63]
+mpHR: H: 1 R: 0 hash: [27 13 109 85 87 100 6 102 141 147 60 223 148 52 161 8 149 60 71 170 22 146 123 160 229 177 84 199 40 214 57 172]
+cmHR: H: 1 R: 0
+INFO [10-08|17:05:16] --------------------------------------- 
+H====:  1 P==== 0
+@rm.proposerPeer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:05:16] In addMsig I am winess 
+INFO [10-08|17:05:16] Removing Ethereum peer                   peer=6d11b37ef4fc909a
+panic: assignment to entry in nil map
+
+goroutine 30 [running]:
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).mWithSignature(0xc426cba600, 0xc426cbe4b0, 0x41, 0x41, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0x0, 0x0, 0x4)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1341 +0xed
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).mSignECDSA(0xc426cba600, 0xc4201a6600, 0xca25de3f1fda2690, 0xf2bac12a7cef43c2, 0x7da2bbf05709d3fb, 0xd4aab1cfd2aa8154, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0xc425867200, ...)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1362 +0xfa
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).Msig(0xc426cba600, 0xc4201a6600, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0xd65197b, 0x1)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1251 +0x1bb
+github.com/ethereum/go-ethereum/consensus/bft.(*ConsensusManager).AddMsigProposal(0xc4200dc000, 0x5118280, 0xc426cba600, 0xc42456e000, 0x0)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_manager.go:684 +0xb39
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc42020b500, 0xc42456e000, 0x0, 0x0)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:312 +0x13b5
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc42020b500, 0xc42456e000, 0x0, 0x0)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x515
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc4200c2960, 0x510d3e0, 0xc420092a10, 0xc42001c0a8, 0x5115600)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc420092a10, 0xc4200c2960)
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/Users/sujianwei20/new_misgcode/msigcode/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4

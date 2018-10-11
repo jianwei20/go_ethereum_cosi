@@ -1,0 +1,980 @@
+INFO [10-08|17:20:49] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-4802f345/darwin-amd64/go1.9.2
+INFO [10-08|17:20:49] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node8/geth/chaindata cache=128 handles=1024
+WARN [10-08|17:20:49] Upgrading chain database to use sequential keys 
+INFO [10-08|17:20:49] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [10-08|17:20:49] config bft is                            bft=true
+WARN [10-08|17:20:49] Upgrading db log bloom bins 
+INFO [10-08|17:20:49] Bloom-bin upgrade completed              elapsed=446.591µs
+INFO [10-08|17:20:49] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [10-08|17:20:49] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:20:49] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:20:49] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-08|17:20:49] in NewTxPool, call resetState 
+INFO [10-08|17:20:49] in NewTxPool, call pool.eventLoog() 
+INFO [10-08|17:20:49] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node8/geth/bftData   cache=128 handles=1024
+INFO [10-08|17:20:49] Database conversion successful 
+INFO [10-08|17:20:49] addVote to                               height=0 round=0 from=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+ready: 1 need: 5.3333335
+INFO [10-08|17:20:49] consensusManager not ready  
+ready: 1 need: 5.3333335
+INFO [10-08|17:20:49] Starting P2P networking 
+INFO [10-08|17:20:49] RLPx listener up                         self="enode://afcb05e7b74b3124443f49044ea8c2d94f06824dee0eda489806b98c62673d011133756ff049b0e46867f5c08b138bbb4cf44d1426c16be68a9a733ad0ca6b24@[::]:30310?discport=0"
+INFO [10-08|17:20:49] ---In BFTvalidatorCommitBlock--- 
+INFO [10-08|17:20:49] HTTP endpoint opened: http://127.0.0.1:8552 
+INFO [10-08|17:20:49] IPC endpoint opened: /Users/sujianwei20/new_misgcode/msigcode/examples/data/node8/geth.ipc 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] send Ready msg 
+INFO [10-08|17:20:49] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:49] ------Received ReadMsg------ 
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:49] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+ready: 8 need: 5.3333335
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+ready: 8 need: 5.3333335
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] -----------------consensusManager Ready------------------------- 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] send Ready msg 
+INFO [10-08|17:20:50] send Ready msg 
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+INFO [10-08|17:20:50] send Ready msg 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 142e89f6535bc36c [eth/63]
+INFO [10-08|17:20:50] send Ready msg 
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:20:50] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-08|17:20:50] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-08|17:22:57] Transaction pool price threshold updated price=18000000000
+INFO [10-08|17:22:57] Starting mining operation 
+INFO [10-08|17:22:57] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:00] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:02] Handle BFT Msg,                          msg="msg #18 (225 bytes)"
+INFO [10-08|17:23:02] ------Received MsigProposalMsg------ 
+I received msp from  Peer 6d11b37ef4fc909a [eth/63]
+mpHR: H: 1 R: 0 hash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:02] --------------------------------------- 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] Handle BFT Msg,                          msg="msg #0 (0 bytes)"
+INFO [10-08|17:23:02] Ethereum message handling failed         id=94dd98401cf6ca04 conn=staticdial err=EOF
+INFO [10-08|17:23:02] Removing Ethereum peer                   peer=94dd98401cf6ca04
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:02] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:02] --------------------------------------- 
+INFO [10-08|17:23:02] addVote to                               height=1 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:02] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:02] received mp before p, wait for a while 
+INFO [10-08|17:23:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:03] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:03] --------------------------------------- 
+INFO [10-08|17:23:03] addVote to                               height=1 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:03] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:03] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:03] --------------------------------------- 
+INFO [10-08|17:23:03] addVote to                               height=1 round=0 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:03] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:03] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:03] --------------------------------------- 
+INFO [10-08|17:23:03] addVote to                               height=1 round=0 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:03] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:03] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:04] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:05] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:06] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:07] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:08] received mp before p, wait for a while 
+INFO [10-08|17:23:09] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:09] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:09] --------------------------------------- 
+INFO [10-08|17:23:09] addVote to                               height=1 round=1 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:09] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:09] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:09] --------------------------------------- 
+INFO [10-08|17:23:09] addVote to                               height=1 round=0 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:09] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:09] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:10] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:11] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:11] --------------------------------------- 
+INFO [10-08|17:23:11] addVote to                               height=1 round=1 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:11] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:11] received mp before p, wait for a while 
+INFO [10-08|17:23:12] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:12] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:12] --------------------------------------- 
+INFO [10-08|17:23:12] addVote to                               height=1 round=1 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:12] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:12] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:12] --------------------------------------- 
+INFO [10-08|17:23:12] addVote to                               height=1 round=1 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:12] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:12] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:13] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:14] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:15] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:16] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:17] received mp before p, wait for a while 
+INFO [10-08|17:23:18] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:18] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:18] --------------------------------------- 
+INFO [10-08|17:23:18] addVote to                               height=1 round=1 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:18] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:18] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:19] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:19] --------------------------------------- 
+INFO [10-08|17:23:19] addVote to                               height=1 round=2 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:19] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:19] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:20] received mp before p, wait for a while 
+INFO [10-08|17:23:21] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:21] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:21] --------------------------------------- 
+INFO [10-08|17:23:21] addVote to                               height=1 round=2 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:21] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:21] received mp before p, wait for a while 
+INFO [10-08|17:23:22] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:22] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:22] --------------------------------------- 
+INFO [10-08|17:23:22] addVote to                               height=1 round=2 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:22] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:22] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-08|17:23:22] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [246 219 80 153 177 16 58 224 200 220 81 63 249 102 151 190 228 116 156 248 86 213 132 115 11 253 254 72 169 238 91 225]
+cmHR: H: 1 R: 0
+INFO [10-08|17:23:22] --------------------------------------- 
+INFO [10-08|17:23:22] addVote to                               height=1 round=2 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b
+INFO [10-08|17:23:22] ------in handle VoteMsg, success!------ 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:22] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:23] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:24] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:25] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:26] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] received mp before p, wait for a while 
+INFO [10-08|17:23:27] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+./node8.sh: line 16: 22106 Terminated: 15          ../build/bin/geth --networkid 2234 --port 30310 --rpcport 8552 --datadir "data/node8" --nodiscover --rpc --rpccorsdomain "*" --rpcapi "eth,net,debug" --bft --allow-empty --num-validators 8 --node-num 7

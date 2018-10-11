@@ -1,0 +1,1334 @@
+INFO [09-11|17:13:46] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-ae8d5760/darwin-amd64/go1.9.2
+INFO [09-11|17:13:46] Allocated cache and file handles         database=/Users/sujianwei20/msigcode/examples/data/node4/geth/chaindata cache=128 handles=1024
+WARN [09-11|17:13:46] Upgrading chain database to use sequential keys 
+INFO [09-11|17:13:46] Database conversion successful 
+INFO [09-11|17:13:46] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [09-11|17:13:46] config bft is                            bft=true
+WARN [09-11|17:13:46] Upgrading db log bloom bins 
+INFO [09-11|17:13:46] Bloom-bin upgrade completed              elapsed=433.557µs
+INFO [09-11|17:13:46] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [09-11|17:13:46] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [09-11|17:13:46] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [09-11|17:13:46] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [09-11|17:13:46] in NewTxPool, call resetState 
+INFO [09-11|17:13:46] in NewTxPool, call pool.eventLoog() 
+INFO [09-11|17:13:46] Allocated cache and file handles         database=/Users/sujianwei20/msigcode/examples/data/node4/geth/bftData   cache=128 handles=1024
+INFO [09-11|17:13:46] addVote to                               height=0 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+ready: 1 need: 2.6666667
+INFO [09-11|17:13:46] consensusManager not ready  
+ready: 1 need: 2.6666667
+INFO [09-11|17:13:46] Starting P2P networking 
+INFO [09-11|17:13:46] RLPx listener up                         self="enode://d9d5b902798f5c42901f3fd993e58a9fb2ded12c3996e2a3849d4fdfcd0c3516aa806f56d93a759278d1c92e88b0daccffc69312581544c9f680a13a2e556a9e@[::]:30306?discport=0"
+INFO [09-11|17:13:46] ---In BFTvalidatorCommitBlock--- 
+INFO [09-11|17:13:46] HTTP endpoint opened: http://127.0.0.1:8548 
+INFO [09-11|17:13:46] IPC endpoint opened: /Users/sujianwei20/msigcode/examples/data/node4/geth.ipc 
+INFO [09-11|17:13:46] send Ready msg 
+INFO [09-11|17:13:46] send Ready msg 
+INFO [09-11|17:13:46] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:46] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:46] send Ready msg 
+INFO [09-11|17:13:46] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:46] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:46] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:46] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:46] send Ready msg 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [09-11|17:13:47] send Ready msg 
+ready: 4 need: 2.6666667
+ready: 4 need: 2.6666667
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] -----------------consensusManager Ready------------------------- 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] send Ready msg 
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:13:47] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [09-11|17:13:47] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [09-11|17:16:00] Transaction pool price threshold updated price=18000000000
+INFO [09-11|17:16:00] Starting mining operation 
+INFO [09-11|17:16:02] Handle BFT Msg,                          msg="msg #18 (225 bytes)"
+INFO [09-11|17:16:02] ------Received MsigProposalMsg------ 
+mpHR: H: 1 R: 0 hash: [158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]
+cmHR: H: 1 R: 0
+INFO [09-11|17:16:02] --------------------------------------- 
+INFO [09-11|17:16:02] received mp before p, wait for a while 
+INFO [09-11|17:16:02] Handle BFT Msg,                          msg="msg #11 (172922 bytes)"
+INFO [09-11|17:16:02] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 0
+cmHR: H: 1 R: 0
+INFO [09-11|17:16:02] --------------------------------------- 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:02] cm add BlockProposal                     h=1 r=0
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:1]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+INFO [09-11|17:16:02] In addBlockCandidates!! 
+INFO [09-11|17:16:02] -------in handle NewBlockProposalMsg, success!------- 
+INFO [09-11|17:16:02] in MsigFinished 
+INFO [09-11|17:16:02] ------addmsigproposal success!------- 
+INFO [09-11|17:16:02] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:02] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]
+cmHR: H: 1 R: 0
+INFO [09-11|17:16:02] --------------------------------------- 
+INFO [09-11|17:16:02] addVote to                               height=1 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:02] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:02] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:02] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]
+cmHR: H: 1 R: 0
+INFO [09-11|17:16:02] --------------------------------------- 
+INFO [09-11|17:16:02] addVote to                               height=1 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:02] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:02] Commit new mining work                   number=1 txs=1598 uncles=0 elapsed=2.032s
+INFO [09-11|17:16:02] Sealing                                  block n=1
+StartConsensus, 1536657362879123000
+INFO [09-11|17:16:02] Start Process 
+INFO [09-11|17:16:02] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:2]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 1
+INFO [09-11|17:16:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:02] ---------------process------------------ 
+INFO [09-11|17:16:02] In RM Process                            height=1 round=0
+INFO [09-11|17:16:02] --------In rm.propose------- 
+INFO [09-11|17:16:02] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:02] in vote in RM                            height=1 round=0
+INFO [09-11|17:16:02] vote mp 
+INFO [09-11|17:16:02] vote success in                          height=1 round=0
+INFO [09-11|17:16:02] Send VoteMsg 
+INFO [09-11|17:16:02] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:3]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+INFO [09-11|17:16:02] There is a quorum                        height=1 round=0
+--- in rm.process p.id: --- Peer 6d11b37ef4fc909a [eth/63]
+INFO [09-11|17:16:02] ============in cm.commitLockset============ 
+INFO [09-11|17:16:02] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:3]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+INFO [09-11|17:16:02] cm.found is not nil 
+INFO [09-11|17:16:02] store lockset 
+peerid: 6d11b37ef4fc909a
+INFO [09-11|17:16:02] ---storeLockset--- 
+INFO [09-11|17:16:02] after cm.process() 
+cmH 1
+INFO [09-11|17:16:02] in validatorCommit1 
+pid: 6d11b37ef4fc909a
+block number 1
+-------in NewBFTValidatorBlock-------
+INFO [09-11|17:16:02] in validatorCommit2 
+validatorCommit time: 97.218µs
+INFO [09-11|17:16:02] **in eth.handler**, get result from ch 
+INFO [09-11|17:16:02] have a consensus on the block 
+INFO [09-11|17:16:02] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 2621840 , txs, 1598 , blockNum, 1
+FinishedConsensus, 1536657362881772000
+INFO [09-11|17:16:02] result is nil 
+INFO [09-11|17:16:02] === Finished Mine() === 
+INFO [09-11|17:16:02] ***in BFT.VVVVerifyHeader*** 
+INFO [09-11|17:16:02] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:02] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:02] In verifyVotes 
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:3]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+INFO [09-11|17:16:02] ***in BFT.VerifyHeaderSSSS*** 
+INFO [09-11|17:16:02] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:02] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:02] In verifyVotes 
+INFO [09-11|17:16:02] in HasQuorum 
+INFO [09-11|17:16:02] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:02] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:3]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 3}]
+INFO [09-11|17:16:02] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:02] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]
+cmHR: H: 1 R: 0
+INFO [09-11|17:16:02] --------------------------------------- 
+INFO [09-11|17:16:02] addVote to                               height=1 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:02] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:02] received NewBlockMsg! 
+INFO [09-11|17:16:04] Imported new chain segment               blocks=1 txs=1598 mgas=33.558 elapsed=1.332s    mgasps=25.183 number=1 hash=9e184b…894939
+FinishedPostExec, 1536657364216500000 , txs, 1598
+PostExecTime, 1.332563724s
+INFO [09-11|17:16:04] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:06] Handle BFT Msg,                          msg="msg #11 (173334 bytes)"
+INFO [09-11|17:16:06] -------Received NewBlockProposalMsg------- 
+bpHR: H: 2 R: 0
+cmHR: H: 2 R: 0
+INFO [09-11|17:16:06] --------------------------------------- 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:06] cm add BlockProposal                     h=2 r=0
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:4]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 4}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 4}]
+INFO [09-11|17:16:06] Commit new mining work                   number=2 txs=1599 uncles=0 elapsed=2.085s
+INFO [09-11|17:16:06] Sealing                                  block n=2
+StartConsensus, 1536657366301762000
+INFO [09-11|17:16:06] Start Process 
+INFO [09-11|17:16:06] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57]:4]
+made hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 4}]
+sorted hs, hs: [{[158 24 75 4 180 199 227 247 130 167 201 127 7 154 40 132 132 118 255 47 204 201 129 10 59 60 231 131 36 137 73 57] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 2
+INFO [09-11|17:16:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:06] ---------------process------------------ 
+INFO [09-11|17:16:06] in collectMsig, i am msig proposer 
+INFO [09-11|17:16:06] Send MsigProposalMsg 
+INFO [09-11|17:16:06] In addBlockCandidates!! 
+INFO [09-11|17:16:06] -------in handle NewBlockProposalMsg, success!------- 
+INFO [09-11|17:16:06] In RM Process                            height=2 round=0
+INFO [09-11|17:16:06] --------In rm.propose------- 
+INFO [09-11|17:16:06] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:06] in vote in RM                            height=2 round=0
+INFO [09-11|17:16:06] vote mp 
+INFO [09-11|17:16:06] vote success in                          height=2 round=0
+INFO [09-11|17:16:06] Send VoteMsg 
+INFO [09-11|17:16:06] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] rm lockset is not valid yet 
+INFO [09-11|17:16:06] after cm.process() 
+INFO [09-11|17:16:06] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:06] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]
+cmHR: H: 2 R: 0
+INFO [09-11|17:16:06] --------------------------------------- 
+INFO [09-11|17:16:06] addVote to                               height=2 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:06] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:06] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:06] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]
+cmHR: H: 2 R: 0
+INFO [09-11|17:16:06] --------------------------------------- 
+INFO [09-11|17:16:06] addVote to                               height=2 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:06] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:06] ---------------process------------------ 
+INFO [09-11|17:16:06] In RM Process                            height=2 round=0
+INFO [09-11|17:16:06] --------In rm.propose------- 
+INFO [09-11|17:16:06] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:06] voted 
+INFO [09-11|17:16:06] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:3]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+INFO [09-11|17:16:06] There is a quorum                        height=2 round=0
+--- in rm.process p.id: --- Peer 94dd98401cf6ca04 [eth/63]
+INFO [09-11|17:16:06] ============in cm.commitLockset============ 
+INFO [09-11|17:16:06] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:3]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+INFO [09-11|17:16:06] cm.found is not nil 
+INFO [09-11|17:16:06] store lockset 
+peerid: 94dd98401cf6ca04
+INFO [09-11|17:16:06] ---storeLockset--- 
+INFO [09-11|17:16:06] after cm.process() 
+cmH 2
+INFO [09-11|17:16:06] in validatorCommit1 
+pid: 94dd98401cf6ca04
+block number 2
+-------in NewBFTValidatorBlock-------
+INFO [09-11|17:16:06] in validatorCommit2 
+validatorCommit time: 99.058µs
+INFO [09-11|17:16:06] **in eth.handler**, get result from ch 
+INFO [09-11|17:16:06] ***in BFT.VVVVerifyHeader*** 
+INFO [09-11|17:16:06] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:06] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:06] In verifyVotes 
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:3]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+INFO [09-11|17:16:06] ***in BFT.VerifyHeaderSSSS*** 
+INFO [09-11|17:16:06] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:06] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:06] In verifyVotes 
+INFO [09-11|17:16:06] in HasQuorum 
+INFO [09-11|17:16:06] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:06] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:3]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 3}]
+INFO [09-11|17:16:06] have a consensus on the block 
+INFO [09-11|17:16:06] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 109632794 , txs, 1599 , blockNum, 2
+FinishedConsensus, 1536657366411442000
+INFO [09-11|17:16:06] result is nil 
+INFO [09-11|17:16:06] === Finished Mine() === 
+INFO [09-11|17:16:06] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:06] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]
+cmHR: H: 2 R: 0
+INFO [09-11|17:16:06] --------------------------------------- 
+INFO [09-11|17:16:06] addVote to                               height=2 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:06] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:07] Imported new chain segment               blocks=1 txs=1599 mgas=33.579 elapsed=1.429s    mgasps=23.484 number=2 hash=b12ce7…b1aa0e
+FinishedPostExec, 1536657367839266000 , txs, 1599
+PostExecTime, 1.429844996s
+INFO [09-11|17:16:07] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:09] Commit new mining work                   number=3 txs=1599 uncles=0 elapsed=1.910s
+INFO [09-11|17:16:09] Sealing                                  block n=3
+StartConsensus, 1536657369750254000
+INFO [09-11|17:16:09] Start Process 
+INFO [09-11|17:16:09] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:4]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 3
+INFO [09-11|17:16:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:09] ---------------process------------------ 
+INFO [09-11|17:16:09] In RM Process                            height=3 round=0
+INFO [09-11|17:16:09] --------In rm.propose------- 
+INFO [09-11|17:16:09] I am a proposer in                       height=3 round=0
+INFO [09-11|17:16:09] in propose, check lastRoundLockset 
+lastRoundLockset, hm.activeround: 0
+INFO [09-11|17:16:09] ------in mkProposal------ 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:4]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+INFO [09-11|17:16:09] LockSet(R-1) is nil (rm.round should equal to zero) 
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:4]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] in sortByBlockhash 
+made bhs, bhs: map[[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14]:4]
+made hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+sorted hs, hs: [{[177 44 231 73 176 17 81 104 4 128 90 71 240 83 88 174 131 251 203 87 142 53 82 161 50 91 183 76 72 177 170 14] 4}]
+INFO [09-11|17:16:09] in newbp, 11 
+INFO [09-11|17:16:09] in newbp, 12 
+Create block blockhash :  [16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]
+INFO [09-11|17:16:09] In addBlockCandidates!! 
+INFO [09-11|17:16:09] Send NewBlockProposalMsg:                LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [09-11|17:16:09] Handle BFT Msg,                          msg="msg #18 (544 bytes)"
+INFO [09-11|17:16:09] ------Received MsigProposalMsg------ 
+mpHR: H: 3 R: 0 hash: [16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]
+cmHR: H: 3 R: 0
+INFO [09-11|17:16:09] --------------------------------------- 
+INFO [09-11|17:16:09] in MsigFinished 
+INFO [09-11|17:16:09] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:09] in vote in RM                            height=3 round=0
+INFO [09-11|17:16:09] Timeout time not reach, curr vs timeout: curr=1536657369.000 timeout=1536657374.000
+INFO [09-11|17:16:09] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] rm lockset is not valid yet 
+INFO [09-11|17:16:09] ------addmsigproposal success!------- 
+INFO [09-11|17:16:09] after cm.process() 
+INFO [09-11|17:16:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:09] ---------------process------------------ 
+INFO [09-11|17:16:09] In RM Process                            height=3 round=0
+INFO [09-11|17:16:09] --------In rm.propose------- 
+INFO [09-11|17:16:09] I am a proposer in                       height=3 round=0
+INFO [09-11|17:16:09] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:09] in vote in RM                            height=3 round=0
+INFO [09-11|17:16:09] vote mp 
+INFO [09-11|17:16:09] vote success in                          height=3 round=0
+INFO [09-11|17:16:09] Send VoteMsg 
+INFO [09-11|17:16:09] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:09] in HasQuorum 
+INFO [09-11|17:16:09] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:09] rm lockset is not valid yet 
+INFO [09-11|17:16:09] after cm.process() 
+INFO [09-11|17:16:09] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:09] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]
+cmHR: H: 3 R: 0
+INFO [09-11|17:16:09] --------------------------------------- 
+INFO [09-11|17:16:09] addVote to                               height=3 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:09] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:09] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:09] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]
+cmHR: H: 3 R: 0
+INFO [09-11|17:16:09] --------------------------------------- 
+INFO [09-11|17:16:09] addVote to                               height=3 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:09] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:09] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:09] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]
+cmHR: H: 3 R: 0
+INFO [09-11|17:16:09] --------------------------------------- 
+INFO [09-11|17:16:09] addVote to                               height=3 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:09] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:10] ---------------process------------------ 
+INFO [09-11|17:16:10] In RM Process                            height=3 round=0
+INFO [09-11|17:16:10] --------In rm.propose------- 
+INFO [09-11|17:16:10] I am a proposer in                       height=3 round=0
+INFO [09-11|17:16:10] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:10] voted 
+INFO [09-11|17:16:10] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:10] in HasQuorum 
+INFO [09-11|17:16:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:10] in sortByBlockhash 
+made bhs, bhs: map[[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]:4]
+made hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+sorted hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+INFO [09-11|17:16:10] There is a quorum                        height=3 round=0
+INFO [09-11|17:16:10] ============in cm.commitLockset============ 
+INFO [09-11|17:16:10] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:10] in HasQuorum 
+INFO [09-11|17:16:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:10] in sortByBlockhash 
+made bhs, bhs: map[[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]:4]
+made hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+sorted hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+INFO [09-11|17:16:10] cm.found is not nil 
+INFO [09-11|17:16:10] store lockset 
+INFO [09-11|17:16:10] ---storeLockset--- 
+INFO [09-11|17:16:10] have a consensus on the block 
+ConsensusTime, 292511213 , txs, 1599 , blockNum, 3
+FinishedConsensus, 1536657370042754000
+INFO [09-11|17:16:10] Successfully sealed new block            number=3 hash=10b373…2dd01f
+INFO [09-11|17:16:10] === Finished Mine() === 
+INFO [09-11|17:16:10] after cm.process() 
+INFO [09-11|17:16:10] 🔨 mined potential block                  number=3 hash=10b373…2dd01f
+INFO [09-11|17:16:10] ---atomic.LoadInt32(&self.mining) == 1 && work.tcount == 0--- 
+INFO [09-11|17:16:10] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:10] received NewBlockMsg! 
+INFO [09-11|17:16:12] Handle BFT Msg,                          msg="msg #18 (544 bytes)"
+INFO [09-11|17:16:12] ------Received MsigProposalMsg------ 
+mpHR: H: 4 R: 0 hash: [109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]
+cmHR: H: 4 R: 0
+INFO [09-11|17:16:12] --------------------------------------- 
+INFO [09-11|17:16:12] received mp before p, wait for a while 
+INFO [09-11|17:16:12] Handle BFT Msg,                          msg="msg #11 (173453 bytes)"
+INFO [09-11|17:16:12] -------Received NewBlockProposalMsg------- 
+bpHR: H: 4 R: 0
+cmHR: H: 4 R: 0
+INFO [09-11|17:16:12] --------------------------------------- 
+INFO [09-11|17:16:12] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:12] cm add BlockProposal                     h=4 r=0
+INFO [09-11|17:16:12] in HasQuorum 
+INFO [09-11|17:16:12] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:12] in sortByBlockhash 
+made bhs, bhs: map[[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]:4]
+made hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+sorted hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+INFO [09-11|17:16:12] In addBlockCandidates!! 
+INFO [09-11|17:16:12] -------in handle NewBlockProposalMsg, success!------- 
+INFO [09-11|17:16:13] in MsigFinished 
+INFO [09-11|17:16:13] ------addmsigproposal success!------- 
+INFO [09-11|17:16:13] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:13] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]
+cmHR: H: 4 R: 0
+INFO [09-11|17:16:13] --------------------------------------- 
+INFO [09-11|17:16:13] addVote to                               height=4 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:13] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:13] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:13] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]
+cmHR: H: 4 R: 0
+INFO [09-11|17:16:13] --------------------------------------- 
+INFO [09-11|17:16:13] addVote to                               height=4 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:13] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:13] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:13] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]
+cmHR: H: 4 R: 0
+INFO [09-11|17:16:13] --------------------------------------- 
+INFO [09-11|17:16:13] addVote to                               height=4 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:13] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:13] received NewBlockMsg! 
+INFO [09-11|17:16:13] ***in BFT.VVVVerifyHeader*** 
+INFO [09-11|17:16:13] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:13] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:13] In verifyVotes 
+INFO [09-11|17:16:13] ***in sync.request()*** 
+INFO [09-11|17:16:13] In verifyVotes 
+INFO [09-11|17:16:13] ***in sync.request()*** 
+INFO [09-11|17:16:13] In verifyVotes 
+INFO [09-11|17:16:13] ***in sync.request()*** 
+INFO [09-11|17:16:13] In verifyVotes 
+INFO [09-11|17:16:13] ***in sync.request()*** 
+INFO [09-11|17:16:13] In verifyVotes 
+INFO [09-11|17:16:13] ***in sync.request()*** 
+INFO [09-11|17:16:14] In verifyVotes 
+INFO [09-11|17:16:14] ***in sync.request()*** 
+INFO [09-11|17:16:14] In verifyVotes 
+INFO [09-11|17:16:14] ***in sync.request()*** 
+INFO [09-11|17:16:14] Handle BFT Msg,                          msg="msg #10 (328 bytes)"
+INFO [09-11|17:16:14] -------Received LocksetMsg------- 
+lockset: &{<nil> 0 0 0 4 [0xc42c240060 0xc42c2400c0 0xc42c240180] false}
+INFO [09-11|17:16:14] in HasQuorum 
+INFO [09-11|17:16:14] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:14] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:3]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+INFO [09-11|17:16:14] ---storeLockset--- 
+INFO [09-11|17:16:14] In verifyVotes 
+INFO [09-11|17:16:14] in HasQuorum 
+INFO [09-11|17:16:14] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:14] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:3]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+INFO [09-11|17:16:14] ***in BFT.VerifyHeaderSSSS*** 
+INFO [09-11|17:16:14] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:14] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:14] In verifyVotes 
+INFO [09-11|17:16:14] in HasQuorum 
+INFO [09-11|17:16:14] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:14] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:3]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 3}]
+INFO [09-11|17:16:15] Commit new mining work                   number=4 txs=1600 uncles=0 elapsed=2.217s
+INFO [09-11|17:16:15] Sealing                                  block n=4
+StartConsensus, 1536657375327885000
+INFO [09-11|17:16:15] Start Process 
+INFO [09-11|17:16:15] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:15] in HasQuorum 
+INFO [09-11|17:16:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:15] in sortByBlockhash 
+made bhs, bhs: map[[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31]:4]
+made hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+sorted hs, hs: [{[16 179 115 56 224 22 202 89 129 219 223 41 76 252 46 42 86 134 154 246 122 172 135 21 71 69 78 219 161 45 208 31] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 4
+INFO [09-11|17:16:15] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:15] ---------------process------------------ 
+INFO [09-11|17:16:15] In RM Process                            height=4 round=0
+INFO [09-11|17:16:15] --------In rm.propose------- 
+INFO [09-11|17:16:15] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:15] in vote in RM                            height=4 round=0
+INFO [09-11|17:16:15] vote mp 
+INFO [09-11|17:16:15] vote success in                          height=4 round=0
+INFO [09-11|17:16:15] Send VoteMsg 
+INFO [09-11|17:16:15] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:15] in HasQuorum 
+INFO [09-11|17:16:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:15] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:4]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+INFO [09-11|17:16:15] There is a quorum                        height=4 round=0
+--- in rm.process p.id: --- Peer d67104e65b61fca1 [eth/63]
+INFO [09-11|17:16:15] ============in cm.commitLockset============ 
+INFO [09-11|17:16:15] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:15] in HasQuorum 
+INFO [09-11|17:16:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:15] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:4]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+INFO [09-11|17:16:15] cm.found is not nil 
+INFO [09-11|17:16:15] store lockset 
+peerid: d67104e65b61fca1
+INFO [09-11|17:16:15] ---storeLockset--- 
+INFO [09-11|17:16:15] have a consensus on the block 
+cmH 4
+INFO [09-11|17:16:15] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:16:15] after cm.process() 
+ConsensusTime, 2831516 , txs, 1600 , blockNum, 4
+INFO [09-11|17:16:15] in validatorCommit1 
+FinishedConsensus, 1536657375330760000
+INFO [09-11|17:16:15] result is nil 
+INFO [09-11|17:16:15] === Finished Mine() === 
+pid: d67104e65b61fca1
+block number 4
+-------in NewBFTValidatorBlock-------
+INFO [09-11|17:16:15] in validatorCommit2 
+validatorCommit time: 216.448µs
+INFO [09-11|17:16:15] **in eth.handler**, get result from ch 
+INFO [09-11|17:16:15] Imported new chain segment               blocks=1 txs=1600 mgas=33.600 elapsed=1.218s    mgasps=27.564 number=4 hash=6d8b32…900b94
+FinishedPostExec, 1536657375789626000 , txs, 1600
+PostExecTime, 1.218985476s
+INFO [09-11|17:16:15] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:16] Handle BFT Msg,                          msg="msg #11 (173950 bytes)"
+INFO [09-11|17:16:16] -------Received NewBlockProposalMsg------- 
+INFO [09-11|17:16:16] Handle BFT Msg,                          msg="msg #18 (544 bytes)"
+INFO [09-11|17:16:16] ------Received MsigProposalMsg------ 
+mpHR: H: 5 R: 0 hash: [6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]
+cmHR: H: 5 R: 0
+INFO [09-11|17:16:16] --------------------------------------- 
+INFO [09-11|17:16:16] received mp before p, wait for a while 
+bpHR: H: 5 R: 0
+cmHR: H: 5 R: 0
+INFO [09-11|17:16:16] --------------------------------------- 
+INFO [09-11|17:16:16] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:16] cm add BlockProposal                     h=5 r=0
+INFO [09-11|17:16:16] in HasQuorum 
+INFO [09-11|17:16:16] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:16] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:4]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+INFO [09-11|17:16:16] In addBlockCandidates!! 
+INFO [09-11|17:16:16] -------in handle NewBlockProposalMsg, success!------- 
+INFO [09-11|17:16:16] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:16] ------Received VoteMsg------ 
+voteHR: H: 5 R: 0 voteType:: 1 voteHash: [6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]
+cmHR: H: 5 R: 0
+INFO [09-11|17:16:16] --------------------------------------- 
+INFO [09-11|17:16:16] addVote to                               height=5 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:16] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:16] in MsigFinished 
+INFO [09-11|17:16:16] ------addmsigproposal success!------- 
+INFO [09-11|17:16:16] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:16] ------Received VoteMsg------ 
+voteHR: H: 5 R: 0 voteType:: 1 voteHash: [6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]
+cmHR: H: 5 R: 0
+INFO [09-11|17:16:16] --------------------------------------- 
+INFO [09-11|17:16:16] addVote to                               height=5 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:16] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:17] Commit new mining work                   number=5 txs=1601 uncles=0 elapsed=1.800s
+INFO [09-11|17:16:17] Sealing                                  block n=5
+StartConsensus, 1536657377590898000
+INFO [09-11|17:16:17] Start Process 
+INFO [09-11|17:16:17] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in HasQuorum 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in sortByBlockhash 
+made bhs, bhs: map[[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148]:4]
+made hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+sorted hs, hs: [{[109 139 50 114 67 45 35 192 182 244 61 61 31 151 221 200 181 181 135 82 220 140 16 12 221 218 25 2 77 144 11 148] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 5
+INFO [09-11|17:16:17] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:17] ---------------process------------------ 
+INFO [09-11|17:16:17] In RM Process                            height=5 round=0
+INFO [09-11|17:16:17] --------In rm.propose------- 
+INFO [09-11|17:16:17] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:17] in vote in RM                            height=5 round=0
+INFO [09-11|17:16:17] vote mp 
+INFO [09-11|17:16:17] vote success in                          height=5 round=0
+INFO [09-11|17:16:17] Send VoteMsg 
+INFO [09-11|17:16:17] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:17] in HasQuorum 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:3]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+INFO [09-11|17:16:17] There is a quorum                        height=5 round=0
+--- in rm.process p.id: --- Peer 6d11b37ef4fc909a [eth/63]
+INFO [09-11|17:16:17] ============in cm.commitLockset============ 
+INFO [09-11|17:16:17] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:17] in HasQuorum 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:3]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+INFO [09-11|17:16:17] cm.found is not nil 
+INFO [09-11|17:16:17] store lockset 
+peerid: 6d11b37ef4fc909a
+INFO [09-11|17:16:17] ---storeLockset--- 
+INFO [09-11|17:16:17] after cm.process() 
+cmH 5
+INFO [09-11|17:16:17] in validatorCommit1 
+pid: 6d11b37ef4fc909a
+block number 5
+-------in NewBFTValidatorBlock-------
+INFO [09-11|17:16:17] in validatorCommit2 
+validatorCommit time: 88.547µs
+INFO [09-11|17:16:17] **in eth.handler**, get result from ch 
+INFO [09-11|17:16:17] ***in BFT.VVVVerifyHeader*** 
+INFO [09-11|17:16:17] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:17] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:17] In verifyVotes 
+INFO [09-11|17:16:17] in HasQuorum 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:3]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+INFO [09-11|17:16:17] ***in BFT.VerifyHeaderSSSS*** 
+INFO [09-11|17:16:17] have a consensus on the block 
+INFO [09-11|17:16:17] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [09-11|17:16:17] ***in BFT.verifyHeader*** 
+ConsensusTime, 2440862 , txs, 1601 , blockNum, 5
+INFO [09-11|17:16:17] ***in BFT.verifySeal*** 
+FinishedConsensus, 1536657377593365000
+INFO [09-11|17:16:17] In verifyVotes 
+INFO [09-11|17:16:17] result is nil 
+INFO [09-11|17:16:17] === Finished Mine() === 
+INFO [09-11|17:16:17] in HasQuorum 
+INFO [09-11|17:16:17] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:17] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:3]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 3}]
+INFO [09-11|17:16:17] received NewBlockMsg! 
+INFO [09-11|17:16:18] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:18] ------Received VoteMsg------ 
+voteHR: H: 5 R: 0 voteType:: 1 voteHash: [6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]
+cmHR: H: 5 R: 0
+INFO [09-11|17:16:18] --------------------------------------- 
+INFO [09-11|17:16:18] addVote to                               height=5 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:18] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:19] Imported new chain segment               blocks=1 txs=1601 mgas=33.621 elapsed=1.767s    mgasps=19.018 number=5 hash=0675da…526573
+FinishedPostExec, 1536657379361207000 , txs, 1601
+PostExecTime, 1.767855796s
+INFO [09-11|17:16:19] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:22] Commit new mining work                   number=6 txs=1602 uncles=0 elapsed=3.101s
+INFO [09-11|17:16:22] Sealing                                  block n=6
+StartConsensus, 1536657382463280000
+INFO [09-11|17:16:22] Start Process 
+INFO [09-11|17:16:22] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:4]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 4}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 6
+INFO [09-11|17:16:22] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:22] ---------------process------------------ 
+INFO [09-11|17:16:22] In RM Process                            height=6 round=0
+INFO [09-11|17:16:22] --------In rm.propose------- 
+INFO [09-11|17:16:22] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:22] in vote in RM                            height=6 round=0
+INFO [09-11|17:16:22] Timeout time not reach, curr vs timeout: curr=1536657382.000 timeout=1536657387.000
+INFO [09-11|17:16:22] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] rm lockset is not valid yet 
+INFO [09-11|17:16:22] after cm.process() 
+INFO [09-11|17:16:22] Handle BFT Msg,                          msg="msg #11 (174050 bytes)"
+INFO [09-11|17:16:22] -------Received NewBlockProposalMsg------- 
+bpHR: H: 6 R: 0
+cmHR: H: 6 R: 0
+INFO [09-11|17:16:22] --------------------------------------- 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [09-11|17:16:22] cm add BlockProposal                     h=6 r=0
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115]:4]
+made hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 4}]
+sorted hs, hs: [{[6 117 218 180 125 3 170 195 96 5 11 105 54 145 172 96 16 27 183 193 233 2 3 205 248 87 128 206 106 82 101 115] 4}]
+INFO [09-11|17:16:22] in collectMsig, i am msig proposer 
+INFO [09-11|17:16:22] Send MsigProposalMsg 
+INFO [09-11|17:16:22] In addBlockCandidates!! 
+INFO [09-11|17:16:22] -------in handle NewBlockProposalMsg, success!------- 
+INFO [09-11|17:16:22] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:22] ---------------process------------------ 
+INFO [09-11|17:16:22] In RM Process                            height=6 round=0
+INFO [09-11|17:16:22] --------In rm.propose------- 
+INFO [09-11|17:16:22] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:22] in vote in RM                            height=6 round=0
+INFO [09-11|17:16:22] vote mp 
+INFO [09-11|17:16:22] vote success in                          height=6 round=0
+INFO [09-11|17:16:22] Send VoteMsg 
+INFO [09-11|17:16:22] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] rm lockset is not valid yet 
+INFO [09-11|17:16:22] after cm.process() 
+INFO [09-11|17:16:22] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:22] ------Received VoteMsg------ 
+voteHR: H: 6 R: 0 voteType:: 1 voteHash: [80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]
+cmHR: H: 6 R: 0
+INFO [09-11|17:16:22] --------------------------------------- 
+INFO [09-11|17:16:22] addVote to                               height=6 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:22] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:22] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:22] ------Received VoteMsg------ 
+voteHR: H: 6 R: 0 voteType:: 1 voteHash: [80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]
+cmHR: H: 6 R: 0
+INFO [09-11|17:16:22] --------------------------------------- 
+INFO [09-11|17:16:22] addVote to                               height=6 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:22] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:22] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:22] ---------------process------------------ 
+INFO [09-11|17:16:22] In RM Process                            height=6 round=0
+INFO [09-11|17:16:22] --------In rm.propose------- 
+INFO [09-11|17:16:22] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:22] voted 
+INFO [09-11|17:16:22] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:3]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+INFO [09-11|17:16:22] There is a quorum                        height=6 round=0
+--- in rm.process p.id: --- Peer 94dd98401cf6ca04 [eth/63]
+INFO [09-11|17:16:22] ============in cm.commitLockset============ 
+INFO [09-11|17:16:22] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:3]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+INFO [09-11|17:16:22] cm.found is not nil 
+INFO [09-11|17:16:22] store lockset 
+peerid: 94dd98401cf6ca04
+INFO [09-11|17:16:22] ---storeLockset--- 
+INFO [09-11|17:16:22] after cm.process() 
+cmH 6
+INFO [09-11|17:16:22] in validatorCommit1 
+pid: 94dd98401cf6ca04
+block number 6
+-------in NewBFTValidatorBlock-------
+INFO [09-11|17:16:22] in validatorCommit2 
+validatorCommit time: 154.17µs
+INFO [09-11|17:16:22] **in eth.handler**, get result from ch 
+INFO [09-11|17:16:22] ***in BFT.VVVVerifyHeader*** 
+INFO [09-11|17:16:22] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:22] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:22] In verifyVotes 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:3]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+INFO [09-11|17:16:22] ***in BFT.VerifyHeaderSSSS*** 
+INFO [09-11|17:16:22] ***in BFT.verifyHeader*** 
+INFO [09-11|17:16:22] ***in BFT.verifySeal*** 
+INFO [09-11|17:16:22] In verifyVotes 
+INFO [09-11|17:16:22] in HasQuorum 
+INFO [09-11|17:16:22] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:22] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:3]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 3}]
+INFO [09-11|17:16:22] have a consensus on the block 
+INFO [09-11|17:16:22] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 215510423 , txs, 1602 , blockNum, 6
+FinishedConsensus, 1536657382678791000
+INFO [09-11|17:16:22] result is nil 
+INFO [09-11|17:16:22] === Finished Mine() === 
+INFO [09-11|17:16:23] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:23] ------Received VoteMsg------ 
+voteHR: H: 6 R: 0 voteType:: 1 voteHash: [80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]
+cmHR: H: 6 R: 0
+INFO [09-11|17:16:23] --------------------------------------- 
+INFO [09-11|17:16:23] addVote to                               height=6 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:23] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:24] Imported new chain segment               blocks=1 txs=1602 mgas=33.642 elapsed=1.707s    mgasps=19.705 number=6 hash=50738b…5efe7b
+FinishedPostExec, 1536657384383456000 , txs, 1602
+PostExecTime, 1.707315726s
+INFO [09-11|17:16:24] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:26] Commit new mining work                   number=7 txs=1603 uncles=0 elapsed=2.204s
+INFO [09-11|17:16:26] Sealing                                  block n=7
+StartConsensus, 1536657386588446000
+INFO [09-11|17:16:26] Start Process 
+INFO [09-11|17:16:26] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:4]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 7
+INFO [09-11|17:16:26] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:26] ---------------process------------------ 
+INFO [09-11|17:16:26] In RM Process                            height=7 round=0
+INFO [09-11|17:16:26] --------In rm.propose------- 
+INFO [09-11|17:16:26] I am a proposer in                       height=7 round=0
+INFO [09-11|17:16:26] in propose, check lastRoundLockset 
+lastRoundLockset, hm.activeround: 0
+INFO [09-11|17:16:26] ------in mkProposal------ 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:4]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+INFO [09-11|17:16:26] LockSet(R-1) is nil (rm.round should equal to zero) 
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:4]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123]:4]
+made hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+sorted hs, hs: [{[80 115 139 237 90 29 245 11 95 247 90 5 181 224 242 87 239 56 166 22 169 130 87 167 203 125 70 230 47 94 254 123] 4}]
+INFO [09-11|17:16:26] in newbp, 11 
+INFO [09-11|17:16:26] in newbp, 12 
+Create block blockhash :  [16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]
+INFO [09-11|17:16:26] In addBlockCandidates!! 
+INFO [09-11|17:16:26] Send NewBlockProposalMsg:                LOG15_ERROR=                                                   LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [09-11|17:16:26] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:26] in vote in RM                            height=7 round=0
+INFO [09-11|17:16:26] Timeout time not reach, curr vs timeout: curr=1536657386.000 timeout=1536657391.000
+INFO [09-11|17:16:26] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] rm lockset is not valid yet 
+INFO [09-11|17:16:26] after cm.process() 
+INFO [09-11|17:16:26] Handle BFT Msg,                          msg="msg #18 (544 bytes)"
+INFO [09-11|17:16:26] ------Received MsigProposalMsg------ 
+mpHR: H: 7 R: 0 hash: [16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]
+cmHR: H: 7 R: 0
+INFO [09-11|17:16:26] --------------------------------------- 
+INFO [09-11|17:16:26] in MsigFinished 
+INFO [09-11|17:16:26] ------addmsigproposal success!------- 
+INFO [09-11|17:16:26] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:26] ------Received VoteMsg------ 
+voteHR: H: 7 R: 0 voteType:: 1 voteHash: [16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]
+cmHR: H: 7 R: 0
+INFO [09-11|17:16:26] --------------------------------------- 
+INFO [09-11|17:16:26] addVote to                               height=7 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:26] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:26] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:26] ---------------process------------------ 
+INFO [09-11|17:16:26] In RM Process                            height=7 round=0
+INFO [09-11|17:16:26] --------In rm.propose------- 
+INFO [09-11|17:16:26] I am a proposer in                       height=7 round=0
+INFO [09-11|17:16:26] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:26] in vote in RM                            height=7 round=0
+INFO [09-11|17:16:26] vote mp 
+INFO [09-11|17:16:26] vote success in                          height=7 round=0
+INFO [09-11|17:16:26] Send VoteMsg 
+INFO [09-11|17:16:26] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] rm lockset is not valid yet 
+INFO [09-11|17:16:26] after cm.process() 
+INFO [09-11|17:16:26] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:26] ------Received VoteMsg------ 
+voteHR: H: 7 R: 0 voteType:: 1 voteHash: [16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]
+cmHR: H: 7 R: 0
+INFO [09-11|17:16:26] --------------------------------------- 
+INFO [09-11|17:16:26] addVote to                               height=7 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:26] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:26] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:26] ---------------process------------------ 
+INFO [09-11|17:16:26] In RM Process                            height=7 round=0
+INFO [09-11|17:16:26] --------In rm.propose------- 
+INFO [09-11|17:16:26] I am a proposer in                       height=7 round=0
+INFO [09-11|17:16:26] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:26] voted 
+INFO [09-11|17:16:26] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]:3]
+made hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 3}]
+sorted hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 3}]
+INFO [09-11|17:16:26] There is a quorum                        height=7 round=0
+INFO [09-11|17:16:26] ============in cm.commitLockset============ 
+INFO [09-11|17:16:26] in commitLockset, check ls HasQuorum 
+INFO [09-11|17:16:26] in HasQuorum 
+INFO [09-11|17:16:26] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:26] in sortByBlockhash 
+made bhs, bhs: map[[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]:3]
+made hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 3}]
+sorted hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 3}]
+INFO [09-11|17:16:26] cm.found is not nil 
+INFO [09-11|17:16:26] store lockset 
+INFO [09-11|17:16:26] ---storeLockset--- 
+INFO [09-11|17:16:26] have a consensus on the block 
+ConsensusTime, 264363116 , txs, 1603 , blockNum, 7
+INFO [09-11|17:16:26] after cm.process() 
+FinishedConsensus, 1536657386852781000
+INFO [09-11|17:16:26] Successfully sealed new block            number=7 hash=10c86f…8e095a
+INFO [09-11|17:16:26] === Finished Mine() === 
+INFO [09-11|17:16:26] 🔨 mined potential block                  number=7 hash=10c86f…8e095a
+INFO [09-11|17:16:26] in pool.evenLoop, call pool.resetState 
+INFO [09-11|17:16:26] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [09-11|17:16:26] ------Received VoteMsg------ 
+voteHR: H: 7 R: 0 voteType:: 1 voteHash: [16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]
+cmHR: H: 8 R: 0
+INFO [09-11|17:16:26] --------------------------------------- 
+INFO [09-11|17:16:26] addVote to                               height=7 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [09-11|17:16:26] ------in handle VoteMsg, success!------ 
+INFO [09-11|17:16:29] Commit new mining work                   number=8 txs=1603 uncles=0 elapsed=2.724s
+INFO [09-11|17:16:29] Sealing                                  block n=8
+StartConsensus, 1536657389617724000
+INFO [09-11|17:16:29] Start Process 
+INFO [09-11|17:16:29] in cm.Process, check lastCommittingLockset() 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] in HasQuorum 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] in sortByBlockhash 
+made bhs, bhs: map[[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90]:4]
+made hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 4}]
+sorted hs, hs: [{[16 200 111 105 213 9 50 38 16 197 96 40 188 163 230 88 14 107 137 3 48 166 240 221 60 129 21 214 167 142 9 90] 4}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 8
+INFO [09-11|17:16:29] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:29] ---------------process------------------ 
+INFO [09-11|17:16:29] In RM Process                            height=8 round=0
+INFO [09-11|17:16:29] --------In rm.propose------- 
+INFO [09-11|17:16:29] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:29] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:29] Timeout time not reach, curr vs timeout: curr=1536657389.000 timeout=1536657394.000
+INFO [09-11|17:16:29] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:29] in HasQuorum 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] rm lockset is not valid yet 
+INFO [09-11|17:16:29] after cm.process() 
+INFO [09-11|17:16:29] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:29] ---------------process------------------ 
+INFO [09-11|17:16:29] In RM Process                            height=8 round=0
+INFO [09-11|17:16:29] --------In rm.propose------- 
+INFO [09-11|17:16:29] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:29] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:29] Timeout time not reach, curr vs timeout: curr=1536657389.000 timeout=1536657394.000
+INFO [09-11|17:16:29] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:29] in HasQuorum 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] rm lockset is not valid yet 
+INFO [09-11|17:16:29] after cm.process() 
+INFO [09-11|17:16:29] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:29] ---------------process------------------ 
+INFO [09-11|17:16:29] In RM Process                            height=8 round=0
+INFO [09-11|17:16:29] --------In rm.propose------- 
+INFO [09-11|17:16:29] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:29] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:29] Timeout time not reach, curr vs timeout: curr=1536657389.000 timeout=1536657394.000
+INFO [09-11|17:16:29] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:29] in HasQuorum 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] rm lockset is not valid yet 
+INFO [09-11|17:16:29] after cm.process() 
+INFO [09-11|17:16:29] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:29] ---------------process------------------ 
+INFO [09-11|17:16:29] In RM Process                            height=8 round=0
+INFO [09-11|17:16:29] --------In rm.propose------- 
+INFO [09-11|17:16:29] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:29] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:29] Timeout time not reach, curr vs timeout: curr=1536657389.000 timeout=1536657394.000
+INFO [09-11|17:16:29] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:29] in HasQuorum 
+INFO [09-11|17:16:29] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:29] rm lockset is not valid yet 
+INFO [09-11|17:16:29] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+INFO [09-11|17:16:30] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [09-11|17:16:30] ---------------process------------------ 
+INFO [09-11|17:16:30] In RM Process                            height=8 round=0
+INFO [09-11|17:16:30] --------In rm.propose------- 
+INFO [09-11|17:16:30] ---------------in rm.vote----------------- 
+INFO [09-11|17:16:30] in vote in RM                            height=8 round=0
+INFO [09-11|17:16:30] Timeout time not reach, curr vs timeout: curr=1536657390.000 timeout=1536657394.000
+INFO [09-11|17:16:30] in rm.process, check lockset HasQuorum 
+INFO [09-11|17:16:30] in HasQuorum 
+INFO [09-11|17:16:30] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [09-11|17:16:30] rm lockset is not valid yet 
+INFO [09-11|17:16:30] after cm.process() 
+./node4.sh: line 16:  4088 Terminated: 15          ../build/bin/geth --networkid 2234 --port 30306 --rpcport 8548 --datadir "data/node4" --nodiscover --rpc --rpccorsdomain "*" --rpcapi "eth,net,web3,debug" --bft --allow-empty --num-validators 4 --node-num 3

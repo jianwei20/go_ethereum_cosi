@@ -1,0 +1,2087 @@
+INFO [10-05|16:59:29] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-4802f345/darwin-amd64/go1.9.2
+INFO [10-05|16:59:29] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node4/geth/chaindata cache=128 handles=1024
+WARN [10-05|16:59:29] Upgrading chain database to use sequential keys 
+INFO [10-05|16:59:29] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [10-05|16:59:29] config bft is                            bft=true
+INFO [10-05|16:59:29] Database conversion successful 
+WARN [10-05|16:59:29] Upgrading db log bloom bins 
+INFO [10-05|16:59:29] Bloom-bin upgrade completed              elapsed=243.248µs
+INFO [10-05|16:59:29] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [10-05|16:59:29] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-05|16:59:29] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-05|16:59:29] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-05|16:59:29] in NewTxPool, call resetState 
+INFO [10-05|16:59:29] in NewTxPool, call pool.eventLoog() 
+INFO [10-05|16:59:29] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/msigcode/examples/data/node4/geth/bftData   cache=128 handles=1024
+INFO [10-05|16:59:29] addVote to                               height=0 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|16:59:29] Starting P2P networking 
+INFO [10-05|16:59:29] HTTP endpoint opened: http://127.0.0.1:8548 
+ready: 1 need: 5.3333335
+INFO [10-05|16:59:29] ---In BFTvalidatorCommitBlock--- 
+INFO [10-05|16:59:29] consensusManager not ready  
+ready: 1 need: 5.3333335
+INFO [10-05|16:59:29] IPC endpoint opened: /Users/sujianwei20/new_misgcode/msigcode/examples/data/node4/geth.ipc 
+INFO [10-05|16:59:29] RLPx listener up                         self="enode://d9d5b902798f5c42901f3fd993e58a9fb2ded12c3996e2a3849d4fdfcd0c3516aa806f56d93a759278d1c92e88b0daccffc69312581544c9f680a13a2e556a9e@[::]:30306?discport=0"
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+INFO [10-05|16:59:30] send Ready msg 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] send Ready msg 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] send Ready msg 
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+ready: 8 need: 5.3333335
+ready: 8 need: 5.3333335
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] -----------------consensusManager Ready------------------------- 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [36 20 56 115 224 224 129 95 220 188 255 219 224 156 151 156 191 154 208 19]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer afcb05e7b74b3124 [eth/63]
+#### peer id = afcb05e7b74b3124
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 14f2a4e39998a282 [eth/63]
+#### peer id = 14f2a4e39998a282
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 142e89f6535bc36c [eth/63]
+#### peer id = 142e89f6535bc36c
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 94dd98401cf6ca04 [eth/63]
+#### peer id = 94dd98401cf6ca04
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+#### peer id = 6d11b37ef4fc909a
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer d67104e65b61fca1 [eth/63]
+#### peer id = d67104e65b61fca1
+INFO [10-05|16:59:30] send Ready msg 
+#### peer.Info= &{63 1048576 0x6f3c1c22725079333cb0327541cf619aaa52acbb3a21e5c81d7e51c32a1bf138}
+#### peer = Peer ae6aee36993a5b48 [eth/63]
+#### peer id = ae6aee36993a5b48
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-05|16:59:30] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-05|16:59:30] ------Received ReadMsg------ 
+AddReady from: [119 219 43 235 186 121 219 66 169 120 248 150 150 143 74 252 231 70 234 31]
+AddReady from: [16 161 193 203 149 201 46 195 29 63 34 198 110 239 29 159 63 37 140 107]
+INFO [10-05|17:01:39] Transaction pool price threshold updated price=18000000000
+INFO [10-05|17:01:39] Starting mining operation 
+INFO [10-05|17:01:43] Handle BFT Msg,                          msg="msg #11 (172922 bytes)"
+INFO [10-05|17:01:43] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 0
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:43] --------------------------------------- 
+INFO [10-05|17:01:43] Handle BFT Msg,                          msg="msg #18 (225 bytes)"
+INFO [10-05|17:01:43] ------Received MsigProposalMsg------ 
+mpHR: H: 1 R: 0 hash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:43] --------------------------------------- 
+INFO [10-05|17:01:43] received mp before p, wait for a while 
+INFO [10-05|17:01:43] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [10-05|17:01:43] cm add BlockProposal                     h=1 r=0
+INFO [10-05|17:01:43] in HasQuorum 
+INFO [10-05|17:01:43] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [10-05|17:01:43] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:1]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+INFO [10-05|17:01:43] In addBlockCandidates!! 
+INFO [10-05|17:01:43] -------in handle NewBlockProposalMsg, success!------- 
+INFO [10-05|17:01:43] in MsigFinished 
+INFO [10-05|17:01:43] ------addmsigproposal success!------- 
+INFO [10-05|17:01:43] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:43] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:43] --------------------------------------- 
+INFO [10-05|17:01:43] addVote to                               height=1 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:43] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:43] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:43] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:43] --------------------------------------- 
+INFO [10-05|17:01:43] addVote to                               height=1 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:43] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:44] Commit new mining work                   number=1 txs=1598 uncles=0 elapsed=4.686s
+INFO [10-05|17:01:44] Sealing                                  block n=1
+StartConsensus, 1538730104011954000
+INFO [10-05|17:01:44] Start Process 
+INFO [10-05|17:01:44] in cm.Process, check lastCommittingLockset() 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [10-05|17:01:44] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:2]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 1
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] in vote in RM                            height=1 round=0
+INFO [10-05|17:01:44] vote mp 
+INFO [10-05|17:01:44] vote success in                          height=1 round=0
+INFO [10-05|17:01:44] Send VoteMsg 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] rm lockset is not valid yet 
+INFO [10-05|17:01:44] after cm.process() 
+INFO [10-05|17:01:44] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:44] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:44] --------------------------------------- 
+INFO [10-05|17:01:44] addVote to                               height=1 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:44] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] voted 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] rm lockset is not valid yet 
+INFO [10-05|17:01:44] after cm.process() 
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] voted 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] rm lockset is not valid yet 
+INFO [10-05|17:01:44] after cm.process() 
+INFO [10-05|17:01:44] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:44] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:44] --------------------------------------- 
+INFO [10-05|17:01:44] addVote to                               height=1 round=0 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:44] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] voted 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 5 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] rm lockset is not valid yet 
+INFO [10-05|17:01:44] after cm.process() 
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] voted 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 5 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] rm lockset is not valid yet 
+INFO [10-05|17:01:44] after cm.process() 
+INFO [10-05|17:01:44] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:44] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:44] --------------------------------------- 
+INFO [10-05|17:01:44] addVote to                               height=1 round=0 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:44] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:44] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:44] ---------------process------------------ 
+INFO [10-05|17:01:44] In RM Process                            height=1 round=0
+INFO [10-05|17:01:44] --------In rm.propose------- 
+INFO [10-05|17:01:44] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:44] voted 
+INFO [10-05|17:01:44] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:6]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+INFO [10-05|17:01:44] There is a quorum                        height=1 round=0
+--- in rm.process p.id: --- Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-05|17:01:44] ============in cm.commitLockset============ 
+INFO [10-05|17:01:44] in commitLockset, check ls HasQuorum 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:6]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+INFO [10-05|17:01:44] cm.found is not nil 
+INFO [10-05|17:01:44] store lockset 
+peerid: 6d11b37ef4fc909a
+INFO [10-05|17:01:44] ---storeLockset--- 
+INFO [10-05|17:01:44] have a consensus on the block 
+INFO [10-05|17:01:44] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 524124015 , txs, 1598 , blockNum, 1
+FinishedConsensus, 1538730104536118000
+INFO [10-05|17:01:44] after cm.process() 
+cmH 1
+INFO [10-05|17:01:44] result is nil 
+INFO [10-05|17:01:44] in validatorCommit1 
+pid: 6d11b37ef4fc909a
+block number 1
+INFO [10-05|17:01:44] === Finished Mine() === 
+-------in NewBFTValidatorBlock-------
+INFO [10-05|17:01:44] in validatorCommit2 
+validatorCommit time: 166.456µs
+INFO [10-05|17:01:44] **in eth.handler**, get result from ch 
+INFO [10-05|17:01:44] ***in BFT.VVVVerifyHeader*** 
+INFO [10-05|17:01:44] ***in BFT.verifyHeader*** 
+INFO [10-05|17:01:44] ***in BFT.verifySeal*** 
+INFO [10-05|17:01:44] In verifyVotes 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:6]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+INFO [10-05|17:01:44] ***in BFT.VerifyHeaderSSSS*** 
+INFO [10-05|17:01:44] ***in BFT.verifyHeader*** 
+INFO [10-05|17:01:44] ***in BFT.verifySeal*** 
+INFO [10-05|17:01:44] In verifyVotes 
+INFO [10-05|17:01:44] in HasQuorum 
+INFO [10-05|17:01:44] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:44] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:6]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 6}]
+INFO [10-05|17:01:44] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:44] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:44] --------------------------------------- 
+INFO [10-05|17:01:44] addVote to                               height=1 round=0 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:44] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:44] received NewBlockMsg! 
+INFO [10-05|17:01:45] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:45] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]
+cmHR: H: 1 R: 0
+INFO [10-05|17:01:45] --------------------------------------- 
+INFO [10-05|17:01:45] addVote to                               height=1 round=0 from=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:45] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:46] Imported new chain segment               blocks=1 txs=1598 mgas=33.558 elapsed=1.882s    mgasps=17.830 number=1 hash=9f8562…b8ff70
+FinishedPostExec, 1538730106419135000 , txs, 1598
+PostExecTime, 1.882067528s
+INFO [10-05|17:01:46] in pool.evenLoop, call pool.resetState 
+INFO [10-05|17:01:52] Commit new mining work                   number=2 txs=1599 uncles=0 elapsed=5.992s
+INFO [10-05|17:01:52] Sealing                                  block n=2
+StartConsensus, 1538730112412340000
+INFO [10-05|17:01:52] Start Process 
+INFO [10-05|17:01:52] in cm.Process, check lastCommittingLockset() 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:8]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 8}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 8}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 2
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:52] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:52] ---------------process------------------ 
+INFO [10-05|17:01:52] In RM Process                            height=2 round=0
+INFO [10-05|17:01:52] --------In rm.propose------- 
+INFO [10-05|17:01:52] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:52] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:52] Timeout time not reach, curr vs timeout: curr=1538730112.000 timeout=1538730117.000
+INFO [10-05|17:01:52] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:52] in HasQuorum 
+INFO [10-05|17:01:52] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:52] rm lockset is not valid yet 
+INFO [10-05|17:01:52] after cm.process() 
+INFO [10-05|17:01:53] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:53] ---------------process------------------ 
+INFO [10-05|17:01:53] In RM Process                            height=2 round=0
+INFO [10-05|17:01:53] --------In rm.propose------- 
+INFO [10-05|17:01:53] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:53] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:53] Timeout time not reach, curr vs timeout: curr=1538730113.000 timeout=1538730117.000
+INFO [10-05|17:01:53] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] rm lockset is not valid yet 
+INFO [10-05|17:01:53] after cm.process() 
+INFO [10-05|17:01:53] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:53] ---------------process------------------ 
+INFO [10-05|17:01:53] In RM Process                            height=2 round=0
+INFO [10-05|17:01:53] --------In rm.propose------- 
+INFO [10-05|17:01:53] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:53] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:53] Timeout time not reach, curr vs timeout: curr=1538730113.000 timeout=1538730117.000
+INFO [10-05|17:01:53] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] rm lockset is not valid yet 
+INFO [10-05|17:01:53] after cm.process() 
+INFO [10-05|17:01:53] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:53] ---------------process------------------ 
+INFO [10-05|17:01:53] In RM Process                            height=2 round=0
+INFO [10-05|17:01:53] --------In rm.propose------- 
+INFO [10-05|17:01:53] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:53] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:53] Timeout time not reach, curr vs timeout: curr=1538730113.000 timeout=1538730117.000
+INFO [10-05|17:01:53] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] rm lockset is not valid yet 
+INFO [10-05|17:01:53] after cm.process() 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #11 (173753 bytes)"
+INFO [10-05|17:01:53] -------Received NewBlockProposalMsg------- 
+bpHR: H: 2 R: 0
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [10-05|17:01:53] cm add BlockProposal                     h=2 r=0
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] in sortByBlockhash 
+made bhs, bhs: map[[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112]:8]
+made hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 8}]
+sorted hs, hs: [{[159 133 98 128 91 200 200 47 234 200 74 147 243 106 234 78 12 225 147 111 70 81 24 58 182 78 191 183 7 184 255 112] 8}]
+INFO [10-05|17:01:53] in collectMsig, i am msig proposer 
+INFO [10-05|17:01:53] Send MsigProposalMsg 
+INFO [10-05|17:01:53] In addBlockCandidates!! 
+INFO [10-05|17:01:53] -------in handle NewBlockProposalMsg, success!------- 
+INFO [10-05|17:01:53] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:53] ---------------process------------------ 
+INFO [10-05|17:01:53] In RM Process                            height=2 round=0
+INFO [10-05|17:01:53] --------In rm.propose------- 
+INFO [10-05|17:01:53] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:53] in vote in RM                            height=2 round=0
+INFO [10-05|17:01:53] vote mp 
+INFO [10-05|17:01:53] vote success in                          height=2 round=0
+INFO [10-05|17:01:53] Send VoteMsg 
+INFO [10-05|17:01:53] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] rm lockset is not valid yet 
+INFO [10-05|17:01:53] after cm.process() 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] received NewBlockMsg! 
+INFO [10-05|17:01:53] ***in BFT.VVVVerifyHeader*** 
+INFO [10-05|17:01:53] ***in BFT.verifyHeader*** 
+INFO [10-05|17:01:53] ***in BFT.verifySeal*** 
+INFO [10-05|17:01:53] In verifyVotes 
+INFO [10-05|17:01:53] ***in sync.request()*** 
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:53] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:01:53] ---------------process------------------ 
+INFO [10-05|17:01:53] In RM Process                            height=2 round=0
+INFO [10-05|17:01:53] --------In rm.propose------- 
+INFO [10-05|17:01:53] ---------------in rm.vote----------------- 
+INFO [10-05|17:01:53] voted 
+INFO [10-05|17:01:53] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 7 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:7]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+INFO [10-05|17:01:53] There is a quorum                        height=2 round=0
+--- in rm.process p.id: --- Peer 94dd98401cf6ca04 [eth/63]
+INFO [10-05|17:01:53] ============in cm.commitLockset============ 
+INFO [10-05|17:01:53] in commitLockset, check ls HasQuorum 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 7 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:7]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+INFO [10-05|17:01:53] cm.found is not nil 
+INFO [10-05|17:01:53] store lockset 
+peerid: 94dd98401cf6ca04
+INFO [10-05|17:01:53] ---storeLockset--- 
+INFO [10-05|17:01:53] after cm.process() 
+cmH 2
+INFO [10-05|17:01:53] in validatorCommit1 
+pid: 94dd98401cf6ca04
+block number 2
+-------in NewBFTValidatorBlock-------
+INFO [10-05|17:01:53] in validatorCommit2 
+validatorCommit time: 90.291µs
+INFO [10-05|17:01:53] **in eth.handler**, get result from ch 
+INFO [10-05|17:01:53] have a consensus on the block 
+INFO [10-05|17:01:53] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 1031812808 , txs, 1599 , blockNum, 2
+FinishedConsensus, 1538730113444206000
+INFO [10-05|17:01:53] result is nil 
+INFO [10-05|17:01:53] === Finished Mine() === 
+INFO [10-05|17:01:53] In verifyVotes 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 7 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:7]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+INFO [10-05|17:01:53] ***in BFT.VerifyHeaderSSSS*** 
+INFO [10-05|17:01:53] ***in BFT.verifyHeader*** 
+INFO [10-05|17:01:53] ***in BFT.verifySeal*** 
+INFO [10-05|17:01:53] In verifyVotes 
+INFO [10-05|17:01:53] in HasQuorum 
+INFO [10-05|17:01:53] In IsValid() 
+len(lockset.Votes): 7 lockset.EligibleVotesNum: 8
+INFO [10-05|17:01:53] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:7]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 7}]
+INFO [10-05|17:01:53] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:01:53] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]
+cmHR: H: 2 R: 0
+INFO [10-05|17:01:53] --------------------------------------- 
+INFO [10-05|17:01:53] addVote to                               height=2 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:01:53] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:01:57] Imported new chain segment               blocks=1 txs=1599 mgas=33.579 elapsed=3.801s    mgasps=8.834  number=2 hash=f4e1d7…14cd45
+FinishedPostExec, 1538730117423315000 , txs, 1599
+PostExecTime, 3.801174284s
+INFO [10-05|17:01:57] in pool.evenLoop, call pool.resetState 
+INFO [10-05|17:02:03] Commit new mining work                   number=3 txs=1599 uncles=0 elapsed=5.737s
+INFO [10-05|17:02:03] Sealing                                  block n=3
+StartConsensus, 1538730123161410000
+INFO [10-05|17:02:03] Start Process 
+INFO [10-05|17:02:03] in cm.Process, check lastCommittingLockset() 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:8]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 3
+INFO [10-05|17:02:03] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:03] ---------------process------------------ 
+INFO [10-05|17:02:03] In RM Process                            height=3 round=0
+INFO [10-05|17:02:03] --------In rm.propose------- 
+INFO [10-05|17:02:03] I am a proposer in                       height=3 round=0
+INFO [10-05|17:02:03] in propose, check lastRoundLockset 
+lastRoundLockset, hm.activeround: 0
+INFO [10-05|17:02:03] ------in mkProposal------ 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:8]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+INFO [10-05|17:02:03] LockSet(R-1) is nil (rm.round should equal to zero) 
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:8]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69]:8]
+made hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+sorted hs, hs: [{[244 225 215 230 141 251 176 198 254 217 98 22 169 32 39 42 32 159 76 198 117 51 166 135 243 253 29 148 65 20 205 69] 8}]
+INFO [10-05|17:02:03] in newbp, 11 
+INFO [10-05|17:02:03] in newbp, 12 
+Create block blockhash :  [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+INFO [10-05|17:02:03] In addBlockCandidates!! 
+INFO [10-05|17:02:03] Send NewBlockProposalMsg:                LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #18 (964 bytes)"
+INFO [10-05|17:02:03] ------Received MsigProposalMsg------ 
+mpHR: H: 3 R: 0 hash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] in MsigFinished 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:03] in vote in RM                            height=3 round=0
+INFO [10-05|17:02:03] Timeout time not reach, curr vs timeout: curr=1538730123.000 timeout=1538730128.000
+INFO [10-05|17:02:03] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] rm lockset is not valid yet 
+INFO [10-05|17:02:03] ------addmsigproposal success!------- 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] after cm.process() 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (106 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 3 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:03] ---------------process------------------ 
+INFO [10-05|17:02:03] In RM Process                            height=3 round=0
+INFO [10-05|17:02:03] --------In rm.propose------- 
+INFO [10-05|17:02:03] I am a proposer in                       height=3 round=0
+INFO [10-05|17:02:03] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:03] in vote in RM                            height=3 round=0
+INFO [10-05|17:02:03] vote mp 
+INFO [10-05|17:02:03] vote success in                          height=3 round=0
+INFO [10-05|17:02:03] Send VoteMsg 
+INFO [10-05|17:02:03] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]:6]
+made hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 6}]
+sorted hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 6}]
+INFO [10-05|17:02:03] There is a quorum                        height=3 round=0
+INFO [10-05|17:02:03] ============in cm.commitLockset============ 
+INFO [10-05|17:02:03] in commitLockset, check ls HasQuorum 
+INFO [10-05|17:02:03] in HasQuorum 
+INFO [10-05|17:02:03] In IsValid() 
+len(lockset.Votes): 6 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:03] in sortByBlockhash 
+made bhs, bhs: map[[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]:6]
+made hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 6}]
+sorted hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 6}]
+INFO [10-05|17:02:03] cm.found is not nil 
+INFO [10-05|17:02:03] store lockset 
+INFO [10-05|17:02:03] ---storeLockset--- 
+INFO [10-05|17:02:03] after cm.process() 
+INFO [10-05|17:02:03] have a consensus on the block 
+ConsensusTime, 255116728 , txs, 1599 , blockNum, 3
+FinishedConsensus, 1538730123416252000
+INFO [10-05|17:02:03] Successfully sealed new block            number=3 hash=48a3cf…42e48d
+INFO [10-05|17:02:03] === Finished Mine() === 
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] received NewBlockMsg! 
+INFO [10-05|17:02:03] 🔨 mined potential block                  number=3 hash=48a3cf…42e48d
+INFO [10-05|17:02:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:03] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:03] --------------------------------------- 
+INFO [10-05|17:02:03] addVote to                               height=3 round=0 from=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:03] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:03] in pool.evenLoop, call pool.resetState 
+INFO [10-05|17:02:08] Commit new mining work                   number=4 txs=1600 uncles=0 elapsed=5.059s
+INFO [10-05|17:02:08] Sealing                                  block n=4
+StartConsensus, 1538730128533014000
+INFO [10-05|17:02:08] Start Process 
+INFO [10-05|17:02:08] in cm.Process, check lastCommittingLockset() 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] in sortByBlockhash 
+made bhs, bhs: map[[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]:8]
+made hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 8}]
+sorted hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 8}]
+=====CM.COINBASE IS:===== [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] block number is: 4
+INFO [10-05|17:02:08] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:08] ---------------process------------------ 
+INFO [10-05|17:02:08] In RM Process                            height=4 round=0
+INFO [10-05|17:02:08] --------In rm.propose------- 
+INFO [10-05|17:02:08] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:08] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:08] Timeout time not reach, curr vs timeout: curr=1538730128.000 timeout=1538730133.000
+INFO [10-05|17:02:08] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] rm lockset is not valid yet 
+INFO [10-05|17:02:08] after cm.process() 
+INFO [10-05|17:02:08] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:08] ---------------process------------------ 
+INFO [10-05|17:02:08] In RM Process                            height=4 round=0
+INFO [10-05|17:02:08] --------In rm.propose------- 
+INFO [10-05|17:02:08] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:08] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:08] Timeout time not reach, curr vs timeout: curr=1538730128.000 timeout=1538730133.000
+INFO [10-05|17:02:08] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] rm lockset is not valid yet 
+INFO [10-05|17:02:08] after cm.process() 
+INFO [10-05|17:02:08] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:08] ---------------process------------------ 
+INFO [10-05|17:02:08] In RM Process                            height=4 round=0
+INFO [10-05|17:02:08] --------In rm.propose------- 
+INFO [10-05|17:02:08] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:08] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:08] Timeout time not reach, curr vs timeout: curr=1538730128.000 timeout=1538730133.000
+INFO [10-05|17:02:08] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] rm lockset is not valid yet 
+INFO [10-05|17:02:08] after cm.process() 
+INFO [10-05|17:02:08] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:08] ---------------process------------------ 
+INFO [10-05|17:02:08] In RM Process                            height=4 round=0
+INFO [10-05|17:02:08] --------In rm.propose------- 
+INFO [10-05|17:02:08] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:08] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:08] Timeout time not reach, curr vs timeout: curr=1538730128.000 timeout=1538730133.000
+INFO [10-05|17:02:08] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] rm lockset is not valid yet 
+INFO [10-05|17:02:08] after cm.process() 
+INFO [10-05|17:02:08] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:08] ---------------process------------------ 
+INFO [10-05|17:02:08] In RM Process                            height=4 round=0
+INFO [10-05|17:02:08] --------In rm.propose------- 
+INFO [10-05|17:02:08] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:08] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:08] Timeout time not reach, curr vs timeout: curr=1538730128.000 timeout=1538730133.000
+INFO [10-05|17:02:08] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:08] in HasQuorum 
+INFO [10-05|17:02:08] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:08] rm lockset is not valid yet 
+INFO [10-05|17:02:08] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:09] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:09] ---------------process------------------ 
+INFO [10-05|17:02:09] In RM Process                            height=4 round=0
+INFO [10-05|17:02:09] --------In rm.propose------- 
+INFO [10-05|17:02:09] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:09] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:09] Timeout time not reach, curr vs timeout: curr=1538730129.000 timeout=1538730133.000
+INFO [10-05|17:02:09] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:09] in HasQuorum 
+INFO [10-05|17:02:09] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:09] rm lockset is not valid yet 
+INFO [10-05|17:02:09] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:10] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:10] ---------------process------------------ 
+INFO [10-05|17:02:10] In RM Process                            height=4 round=0
+INFO [10-05|17:02:10] --------In rm.propose------- 
+INFO [10-05|17:02:10] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:10] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:10] Timeout time not reach, curr vs timeout: curr=1538730130.000 timeout=1538730133.000
+INFO [10-05|17:02:10] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:10] in HasQuorum 
+INFO [10-05|17:02:10] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:10] rm lockset is not valid yet 
+INFO [10-05|17:02:10] after cm.process() 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #11 (173873 bytes)"
+INFO [10-05|17:02:11] -------Received NewBlockProposalMsg------- 
+bpHR: H: 4 R: 0
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [10-05|17:02:11] cm add BlockProposal                     h=4 r=0
+INFO [10-05|17:02:11] in HasQuorum 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:11] in sortByBlockhash 
+made bhs, bhs: map[[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141]:8]
+made hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 8}]
+sorted hs, hs: [{[72 163 207 190 255 109 246 201 5 17 65 183 166 184 239 248 65 253 2 218 177 137 236 238 178 115 105 218 145 66 228 141] 8}]
+INFO [10-05|17:02:11] In addBlockCandidates!! 
+INFO [10-05|17:02:11] -------in handle NewBlockProposalMsg, success!------- 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #18 (963 bytes)"
+INFO [10-05|17:02:11] ------Received MsigProposalMsg------ 
+mpHR: H: 4 R: 0 hash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] in MsigFinished 
+INFO [10-05|17:02:11] ------addmsigproposal success!------- 
+INFO [10-05|17:02:11] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:11] ---------------process------------------ 
+INFO [10-05|17:02:11] In RM Process                            height=4 round=0
+INFO [10-05|17:02:11] --------In rm.propose------- 
+INFO [10-05|17:02:11] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:11] in vote in RM                            height=4 round=0
+INFO [10-05|17:02:11] vote mp 
+INFO [10-05|17:02:11] vote success in                          height=4 round=0
+INFO [10-05|17:02:11] Send VoteMsg 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:11] in HasQuorum 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:11] rm lockset is not valid yet 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] after cm.process() 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x77db2bebba79db42a978f896968f4afce746ea1f success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:11] ---------------process------------------ 
+INFO [10-05|17:02:11] In RM Process                            height=4 round=0
+INFO [10-05|17:02:11] --------In rm.propose------- 
+INFO [10-05|17:02:11] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:11] voted 
+INFO [10-05|17:02:11] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:11] in HasQuorum 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 5 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:11] rm lockset is not valid yet 
+INFO [10-05|17:02:11] after cm.process() 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x13cbb8d99c6c4e0f2728c7d72606e78a29c4e224 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x10a1c1cb95c92ec31d3f22c66eef1d9f3f258c6b success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] received NewBlockMsg! 
+INFO [10-05|17:02:11] ***in BFT.VVVVerifyHeader*** 
+INFO [10-05|17:02:11] ***in BFT.verifyHeader*** 
+INFO [10-05|17:02:11] ***in BFT.verifySeal*** 
+INFO [10-05|17:02:11] In verifyVotes 
+INFO [10-05|17:02:11] ***in sync.request()*** 
+INFO [10-05|17:02:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-05|17:02:11] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]
+cmHR: H: 4 R: 0
+INFO [10-05|17:02:11] --------------------------------------- 
+INFO [10-05|17:02:11] addVote to                               height=4 round=0 from=0x24143873e0e0815fdcbcffdbe09c979cbf9ad013 success=true cm.coinbase=0x598443f1880ef585b21f1d7585bd0577402861e5
+INFO [10-05|17:02:11] ------in handle VoteMsg, success!------ 
+INFO [10-05|17:02:11] case: default, cm.process 
+ready: 8 need: 5.3333335
+INFO [10-05|17:02:11] ---------------process------------------ 
+INFO [10-05|17:02:11] In RM Process                            height=4 round=0
+INFO [10-05|17:02:11] --------In rm.propose------- 
+INFO [10-05|17:02:11] ---------------in rm.vote----------------- 
+INFO [10-05|17:02:11] voted 
+INFO [10-05|17:02:11] in rm.process, check lockset HasQuorum 
+INFO [10-05|17:02:11] in HasQuorum 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:11] in sortByBlockhash 
+made bhs, bhs: map[[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]:8]
+made hs, hs: [{[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179] 8}]
+sorted hs, hs: [{[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179] 8}]
+INFO [10-05|17:02:11] There is a quorum                        height=4 round=0
+--- in rm.process p.id: --- Peer ae6aee36993a5b48 [eth/63]
+INFO [10-05|17:02:11] ============in cm.commitLockset============ 
+INFO [10-05|17:02:11] in commitLockset, check ls HasQuorum 
+INFO [10-05|17:02:11] in HasQuorum 
+INFO [10-05|17:02:11] In IsValid() 
+len(lockset.Votes): 8 lockset.EligibleVotesNum: 8
+INFO [10-05|17:02:11] in sortByBlockhash 
+made bhs, bhs: map[[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179]:8]
+made hs, hs: [{[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179] 8}]
+sorted hs, hs: [{[112 20 171 46 93 158 222 131 154 110 192 200 17 61 185 10 128 160 21 104 252 221 34 61 85 3 196 115 246 213 121 179] 8}]
+INFO [10-05|17:02:11] cm.found is not nil 
+INFO [10-05|17:02:11] store lockset 
+peerid: ae6aee36993a5b48
+cmH 4
+INFO [10-05|17:02:11] ---storeLockset--- 
+INFO [10-05|17:02:11] after cm.process() 
+INFO [10-05|17:02:11] in validatorCommit1 
+pid: ae6aee36993a5b48
+block number 4
+-------in NewBFTValidatorBlock-------
+INFO [10-05|17:02:11] in validatorCommit2 
+validatorCommit time: 195.422µs
+INFO [10-05|17:02:11] **in eth.handler**, get result from ch 
+INFO [10-05|17:02:11] have a consensus on the block 
+INFO [10-05|17:02:11] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [19 203 184 217 156 108 78 15 39 40 199 215 38 6 231 138 41 196 226 36] b.signer: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+ConsensusTime, 2784772199 , txs, 1600 , blockNum, 4
+FinishedConsensus, 1538730131317867000
+INFO [10-05|17:02:11] result is nil 
+INFO [10-05|17:02:11] === Finished Mine() === 
+./node4.sh: line 16: 13099 Terminated: 15          ../build/bin/geth --networkid 2234 --port 30306 --rpcport 8548 --datadir "data/node4" --nodiscover --rpc --rpccorsdomain "*" --rpcapi "eth,net,web3,debug" --bft --allow-empty --num-validators 8 --node-num 3
