@@ -48,9 +48,7 @@ type votingInstructionData struct {
 type voteData struct {
 	Vote *types.Vote
 }
-type precommitVoteData struct {
-	PrecommitVote *types.PrecommitVote
-}
+
 type readyData struct {
 	Ready *types.Ready
 }

@@ -1,0 +1,375 @@
+INFO [10-16|19:32:40] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-287ee7b9/darwin-amd64/go1.9.7
+INFO [10-16|19:32:40] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth/chaindata cache=128 handles=1024
+WARN [10-16|19:32:40] Upgrading chain database to use sequential keys 
+INFO [10-16|19:32:40] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [10-16|19:32:40] config bft is                            bft=true
+INFO [10-16|19:32:40] Database conversion successful 
+WARN [10-16|19:32:40] Upgrading db log bloom bins 
+INFO [10-16|19:32:40] Bloom-bin upgrade completed              elapsed=143.543µs
+INFO [10-16|19:32:40] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [10-16|19:32:40] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-16|19:32:40] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-16|19:32:40] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [10-16|19:32:40] in NewTxPool, call resetState 
+INFO [10-16|19:32:40] in NewTxPool, call pool.eventLoog() 
+INFO [10-16|19:32:40] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth/bftData   cache=128 handles=1024
+INFO [10-16|19:32:40] addVote to                               height=0 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+ready: 1 need: 2.6666667
+INFO [10-16|19:32:40] consensusManager not ready  
+ready: 1 need: 2.6666667
+INFO [10-16|19:32:40] Starting P2P networking 
+INFO [10-16|19:32:40] ---In BFTvalidatorCommitBlock--- 
+INFO [10-16|19:32:40] RLPx listener up                         self="enode://94dd98401cf6ca0418580bb77ad0606a35ae8f442b22ab0f81011d8d2c78e70ff779c1d53d015640d79a13f0be99161ae3ff3adb60633ca03a7b542cbe116882@[::]:30305?discport=0"
+INFO [10-16|19:32:40] HTTP endpoint opened: http://127.0.0.1:8547 
+INFO [10-16|19:32:40] IPC endpoint opened: /Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth.ipc 
+INFO [10-16|19:32:40] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:40] ------Received ReadMsg------ 
+INFO [10-16|19:32:40] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:40] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:40] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:40] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:40] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:40] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:40] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:40] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:40] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:40] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+ready: 4 need: 2.6666667
+ready: 4 need: 2.6666667
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:41] -----------------consensusManager Ready------------------------- 
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d67104e65b61fca1 [eth/63]
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer d9d5b902798f5c42 [eth/63]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+INFO [10-16|19:32:41] send Ready msg 
+#### peer = Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:32:41] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [10-16|19:32:41] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [10-16|19:34:54] Transaction pool price threshold updated price=18000000000
+INFO [10-16|19:34:54] Starting mining operation 
+INFO [10-16|19:34:56] Handle BFT Msg,                          msg="msg #11 (172922 bytes)"
+INFO [10-16|19:34:56] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 0
+cmHR: H: 1 R: 0
+INFO [10-16|19:34:56] --------------------------------------- 
+# collMsig from = Peer 6d11b37ef4fc909a [eth/63]
+cmHR: H: 1 R: 0
+this is rm.proposerPeer  Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [10-16|19:34:56] cm add BlockProposal                     h=1 r=0
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:1]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 1}]
+INFO [10-16|19:34:56] in collectMsig, i am wintness 
+Msig=  @cm.privkey = &{{0xc4201a52f0 67333825585571014603611635451020349202021545719350172562572682223116453734159 111936399880843152885602076155268524635577748095116000279445393134704403769474} 78469846343542442363028680824980501212021332975324075417961003849793346933925} ##cm.coinbase= [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+in collect Misg from Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:34:56] Return MsigProposalMsg to                LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [10-16|19:34:56] Send MsigProposalMsg 
+INFO [10-16|19:34:56] In addBlockCandidates!! 
+INFO [10-16|19:34:56] -------in handle NewBlockProposalMsg, success!------- 
+INFO [10-16|19:34:56] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-16|19:34:56] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]
+cmHR: H: 1 R: 0
+INFO [10-16|19:34:56] --------------------------------------- 
+INFO [10-16|19:34:56] addVote to                               height=1 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [10-16|19:34:56] ------in handle VoteMsg, success!------ 
+INFO [10-16|19:34:56] Handle BFT Msg,                          msg="msg #0 (0 bytes)"
+INFO [10-16|19:34:56] Ethereum message handling failed         id=6d11b37ef4fc909a conn=staticdial err=EOF
+INFO [10-16|19:34:56] Commit new mining work                   number=1 txs=1598 uncles=0 elapsed=2.104s
+INFO [10-16|19:34:56] Sealing                                  block n=1
+StartConsensus, 1539689696400120000
+INFO [10-16|19:34:56] Start Process 
+INFO [10-16|19:34:56] in cm.Process, check lastCommittingLockset() 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56]:2]
+made hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+sorted hs, hs: [{[111 60 28 34 114 80 121 51 60 176 50 117 65 207 97 154 170 82 172 187 58 33 229 200 29 126 81 195 42 27 241 56] 2}]
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 1
+INFO [10-16|19:34:56] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [10-16|19:34:56] ---------------process------------------ 
+INFO [10-16|19:34:56] In RM Process                            height=1 round=0
+INFO [10-16|19:34:56] --------In rm.propose------- 
+INFO [10-16|19:34:56] ---------------in rm.vote----------------- 
+INFO [10-16|19:34:56] in vote in RM                            height=1 round=0
+INFO [10-16|19:34:56] vote mp 
+INFO [10-16|19:34:56] vote success in                          height=1 round=0
+INFO [10-16|19:34:56] Send VoteMsg 
+INFO [10-16|19:34:56] in rm.process, check lockset HasQuorum 
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:56] rm lockset is not valid yet 
+INFO [10-16|19:34:56] after cm.process() 
+INFO [10-16|19:34:56] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [10-16|19:34:56] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]
+cmHR: H: 1 R: 0
+INFO [10-16|19:34:56] --------------------------------------- 
+INFO [10-16|19:34:56] addVote to                               height=1 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [10-16|19:34:56] ------in handle VoteMsg, success!------ 
+INFO [10-16|19:34:56] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [10-16|19:34:56] ---------------process------------------ 
+INFO [10-16|19:34:56] In RM Process                            height=1 round=0
+INFO [10-16|19:34:56] --------In rm.propose------- 
+INFO [10-16|19:34:56] ---------------in rm.vote----------------- 
+INFO [10-16|19:34:56] voted 
+INFO [10-16|19:34:56] in rm.process, check lockset HasQuorum 
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:56] There is a quorum                        height=1 round=0
+--- in rm.process p.id: --- Peer 6d11b37ef4fc909a [eth/63]
+INFO [10-16|19:34:56] ============in cm.commitLockset============ 
+INFO [10-16|19:34:56] in commitLockset, check ls HasQuorum 
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:56] cm.found is not nil 
+INFO [10-16|19:34:56] have a consensus on the block 
+INFO [10-16|19:34:56] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110] b.signer: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+ConsensusTime, 105657036 , txs, 1598 , blockNum, 1
+FinishedConsensus, 1539689696505821000
+INFO [10-16|19:34:56] result is nil 
+INFO [10-16|19:34:56] === Finished Mine() === 
+INFO [10-16|19:34:56] store lockset 
+peerid: 6d11b37ef4fc909a
+cmH 1
+INFO [10-16|19:34:56] ---storeLockset--- 
+INFO [10-16|19:34:56] in validatorCommit1 
+pid: 6d11b37ef4fc909a
+block number 1
+-------in NewBFTValidatorBlock-------
+INFO [10-16|19:34:56] in validatorCommit2 
+validatorCommit time: 150.027µs
+INFO [10-16|19:34:56] **in eth.handler**, get result from ch 
+INFO [10-16|19:34:56] ***in BFT.VVVVerifyHeader*** 
+INFO [10-16|19:34:56] ***in BFT.verifyHeader*** 
+INFO [10-16|19:34:56] ***in BFT.verifySeal*** 
+INFO [10-16|19:34:56] In verifyVotes 
+INFO [10-16|19:34:56] ***in sync.request()*** 
+INFO [10-16|19:34:56] after cm.process() 
+INFO [10-16|19:34:56] received NewBlockMsg! 
+INFO [10-16|19:34:56] In verifyVotes 
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:56] ***in BFT.VerifyHeaderSSSS*** 
+INFO [10-16|19:34:56] ***in BFT.verifyHeader*** 
+INFO [10-16|19:34:56] ***in BFT.verifySeal*** 
+INFO [10-16|19:34:56] In verifyVotes 
+INFO [10-16|19:34:56] in HasQuorum 
+INFO [10-16|19:34:56] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:56] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:57] Imported new chain segment               blocks=1 txs=1598 mgas=33.558 elapsed=1.058s    mgasps=31.713 number=1 hash=cd0cfa…e08e5f
+FinishedPostExec, 1539689697766114000 , txs, 1598
+PostExecTime, 1.058175746s
+INFO [10-16|19:34:57] in pool.evenLoop, call pool.resetState 
+INFO [10-16|19:34:59] Commit new mining work                   number=2 txs=1599 uncles=0 elapsed=1.567s
+INFO [10-16|19:34:59] Sealing                                  block n=2
+StartConsensus, 1539689699333911000
+INFO [10-16|19:34:59] Start Process 
+INFO [10-16|19:34:59] in cm.Process, check lastCommittingLockset() 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in HasQuorum 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 2
+INFO [10-16|19:34:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [10-16|19:34:59] ---------------process------------------ 
+INFO [10-16|19:34:59] In RM Process                            height=2 round=0
+INFO [10-16|19:34:59] --------In rm.propose------- 
+INFO [10-16|19:34:59] I am a proposer in                       height=2 round=0
+INFO [10-16|19:34:59] in propose, check lastRoundLockset 
+lastRoundLockset, hm.activeround: 0
+INFO [10-16|19:34:59] ------in mkProposal------ 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in HasQuorum 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:59] LockSet(R-1) is nil (rm.round should equal to zero) 
+INFO [10-16|19:34:59] in HasQuorum 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:59] in HasQuorum 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] in sortByBlockhash 
+made bhs, bhs: map[[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95]:3]
+made hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+sorted hs, hs: [{[205 12 250 161 13 6 2 135 220 76 78 137 88 55 84 34 148 81 232 230 181 214 170 225 104 62 23 179 223 224 142 95] 3}]
+INFO [10-16|19:34:59] in newbp, 11 
+INFO [10-16|19:34:59] in newbp, 12 
+Create block blockhash :  [158 102 39 197 122 114 159 8 16 236 160 197 203 9 68 91 178 161 49 140 80 8 76 27 255 104 137 59 24 199 96 143]
+INFO [10-16|19:34:59] In addBlockCandidates!! 
+INFO [10-16|19:34:59] Send NewBlockProposalMsg:                LOG15_ERROR=                                                   LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [10-16|19:34:59] ---------------in rm.vote----------------- 
+INFO [10-16|19:34:59] in vote in RM                            height=2 round=0
+INFO [10-16|19:34:59] Timeout time not reach, curr vs timeout: curr=1539689699.000 timeout=1539689704.000
+INFO [10-16|19:34:59] in rm.process, check lockset HasQuorum 
+INFO [10-16|19:34:59] in HasQuorum 
+INFO [10-16|19:34:59] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [10-16|19:34:59] rm lockset is not valid yet 
+INFO [10-16|19:34:59] after cm.process() 
+INFO [10-16|19:34:59] Handle BFT Msg,                          msg="msg #18 (439 bytes)"
+INFO [10-16|19:34:59] ------Received MsigProposalMsg------ 
+I received msp from  Peer d9d5b902798f5c42 [eth/63]
+mpHR: H: 2 R: 0 hash: [158 102 39 197 122 114 159 8 16 236 160 197 203 9 68 91 178 161 49 140 80 8 76 27 255 104 137 59 24 199 96 143]
+cmHR: H: 2 R: 0
+INFO [10-16|19:34:59] --------------------------------------- 
+mp= &{<nil> 28 111101250625709793156276518448536061231111231089851461741727698597796621235014 34230325975707732571390334224793213986311550965856596579907415843268582830453 map[] map[] map[] 2 0 [158 102 39 197 122 114 159 8 16 236 160 197 203 9 68 91 178 161 49 140 80 8 76 27 255 104 137 59 24 199 96 143] 0xc42a67e690 0xc42a67e6e0}
+H====:  2 P==== 0
+@rm.proposerPeer = <nil>
+INFO [10-16|19:34:59] In addMsig I am leader 
+mp= &{0xc425b2a8e0 28 111101250625709793156276518448536061231111231089851461741727698597796621235014 34230325975707732571390334224793213986311550965856596579907415843268582830453 map[] map[] map[] 2 0 [158 102 39 197 122 114 159 8 16 236 160 197 203 9 68 91 178 161 49 140 80 8 76 27 255 104 137 59 24 199 96 143] 0xc42a67e690 0xc42a67e6e0}
+Msig=  @cm.privkey = &{{0xc4201a52f0 67333825585571014603611635451020349202021545719350172562572682223116453734159 111936399880843152885602076155268524635577748095116000279445393134704403769474} 78469846343542442363028680824980501212021332975324075417961003849793346933925} ##cm.coinbase= [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+panic: assignment to entry in nil map
+
+goroutine 115 [running]:
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).mWithSignature(0xc427eca380, 0xc427406550, 0x41, 0x41, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0x0, 0x0, 0x4)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1344 +0xed
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).mSignECDSA(0xc427eca380, 0xc4200794d0, 0x66201fddc0a0e22d, 0x7b59b7a8a8aec17a, 0x82c0ad7c1f4b82cb, 0xc074684b1162c31e, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0xc4273a5080, ...)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1365 +0xfa
+github.com/ethereum/go-ethereum/consensus/bft/types.(*MsigProposal).Msig(0xc427eca380, 0xc4200794d0, 0x630a5cfcf3eaecdc, 0x1b01901a9bd695d1, 0xd65197b, 0x0, 0xc420084050)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/types/bft_bases.go:1254 +0x2a7
+github.com/ethereum/go-ethereum/consensus/bft.(*ConsensusManager).AddMsigProposal(0xc42020a900, 0x511b280, 0xc427eca380, 0xc42456b5e0, 0x0)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/bft_manager.go:675 +0xe6c
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handleBFTMsg(0xc42022d500, 0xc42456b5e0, 0x0, 0x0)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:314 +0x1445
+github.com/ethereum/go-ethereum/consensus/bft.(*ProtocolManager).handle(0xc42022d500, 0xc42456b5e0, 0xc424544820, 0x51103e0)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:185 +0x4ab
+github.com/ethereum/go-ethereum/consensus/bft.NewProtocolManager.func1(0xc424544820, 0x51103e0, 0xc4203c3110, 0x540638979349c819, 0xba51a94323eb9c5d)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/consensus/bft/handler.go:109 +0x6e
+github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols.func1(0xc4203c3110, 0xc424544820)
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:301 +0x5d
+created by github.com/ethereum/go-ethereum/p2p.(*Peer).startProtocols
+	/Users/sujianwei20/new_misgcode/go_ethereum_cosi/build/_workspace/src/github.com/ethereum/go-ethereum/p2p/peer.go:300 +0x1d4

@@ -411,12 +411,12 @@ func (cm *ConsensusManager) process() {
 	}
 }
 
-func(cm *ConsensusManager) validatorCommit(p *peer, block *types.Block) {
+func (cm *ConsensusManager) validatorCommit(p *peer, block *types.Block) {
 	var start = time.Now()
 	fmt.Println("cmH", cm.Height())
-	if cm.coinbase != block.Header().Coinbase && cm.Height() >= 1{
+	if cm.coinbase != block.Header().Coinbase && cm.Height() >= 1 {
 		log.Info("in validatorCommit1")
-		fmt.Println("pid:", p.id) 
+		fmt.Println("pid:", p.id)
 		fmt.Println("block number", block.NumberU64())
 		result, err := types.NewBFTValidatorBlock(block, p.id)
 		log.Info("in validatorCommit2")
@@ -426,7 +426,7 @@ func(cm *ConsensusManager) validatorCommit(p *peer, block *types.Block) {
 		}
 		result.PeerId = p.id
 		result.Block = block
-		cm.pm.bftValidatorCommitCh <-result
+		cm.pm.bftValidatorCommitCh <- result
 		fmt.Println("validatorCommit time:", time.Since(start))
 	} else {
 		log.Info("self.Proposer==True")
@@ -453,8 +453,8 @@ func (cm *ConsensusManager) commitLockset(hash common.Hash, ls *btypes.LockSet, 
 					select {
 					case cm.found <- proposal.GetBlock():
 						log.Info("store lockset")
-						if cm.coinbase != proposal.GetBlock().Header().Coinbase && cm.Height() >= 1{
-							fmt.Println("peerid:",peer.id)
+						if cm.coinbase != proposal.GetBlock().Header().Coinbase && cm.Height() >= 1 {
+							fmt.Println("peerid:", peer.id)
 							go cm.validatorCommit(peer, proposal.GetBlock())
 						}
 						cm.storeLockset(hash, ls)
@@ -549,17 +549,9 @@ func (cm *ConsensusManager) setProposalLock(block *types.Block) {
 	cm.proposalLock = block
 }
 
-
-func (cm *ConsensusManager) ReturnMsg(msg interface{},peer *peer) {
-	cm.pm.ReturnBFTMsg(msg,peer)
-}
-
-
-
 func (cm *ConsensusManager) broadcast(msg interface{}) {
 	cm.pm.BroadcastBFTMsg(msg)
 }
-
 
 func (cm *ConsensusManager) isReady() bool {
 	fmt.Println("ready:", len(cm.readyValidators), "need:", float32(len(cm.contract.validators))*2.0/3.0)
@@ -623,34 +615,20 @@ func (cm *ConsensusManager) AddVote(v *btypes.Vote) bool {
 	cm.getHeightMu.Unlock()
 	return success
 }
-/*
-func (cm *ConsensusManager)isLeader(peer)bool{
-
-hm := cm.getHeightManager(p.GetHeight())
-rm := hm.getRoundManager(p.GetRound())
-
-if rm.proposerPeer==peer{}
-
-}
-*/
-//func ()HW
-
 
 func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool {
 	// 1. block hasValid sig
 	// 2. push block into blockCandidates without msig
 	log.Debug("--------------in AddMsigProposal----------------")
 	addr, err := mp.From()
-	//fmt.Println("in addMsig peer =",peer)
-	//fmt.Println("in addMsig mp.From =",addr)
 	if err != nil {
 		log.Debug("msigproposal sender error", "err", err)
 		return false
 	}
 	rm := cm.getHeightManager(cm.Height()).getRoundManager(cm.Round())
 	if p := rm.proposal; p != nil {
-		if  mp.Blockhash() != p.Blockhash() {
-			if mp.GetHeight()==p.GetHeight() && mp.GetRound()==p.GetRound() {
+		if mp.Blockhash() != p.Blockhash() {
+			if mp.GetHeight() == p.GetHeight() && mp.GetRound() == p.GetRound() {
 				log.Info("mp.Blockhash != p.Blockhash")
 				return false
 			}
@@ -660,50 +638,21 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		time.Sleep(100 * time.Millisecond)
 		return cm.AddMsigProposal(mp, peer)
 	}
-
-///---------------------
-fmt.Println("H====: ",cm.Height(),"P====",cm.Round())
-	fmt.Println("@rm.proposerPeer =",rm.proposerPeer)
-
-
-	if rm.proposerPeer==nil{
-		log.Info("In addMsig I am leader")
-		fmt.Println("mp=",mp)
-
-
-		
-		err := mp.Msig(cm.privkey, cm.coinbase)
-		if err != nil {
-			log.Debug("in AddMsigProposal, msig failed")
-			return false
-		}
-
-		
-		cm.Sign(mp)
-		cm.broadcast(mp)
-		
-		}
-	///---------------------
-
 	if cm.contract.isMsigProposer(mp, cm.coinbase) {
-		log.Info("In addMsig I am winess")
-
-		err := mp.Msig(cm.privkey, cm.coinbase)
+		err := mp.Msign(cm.privkey, cm.coinbase)
 		if err != nil {
 			log.Debug("in AddMsigProposal, msig failed")
 			return false
 		}
-		fmt.Println("mp=",mp)
 		cm.Sign(mp)
-		fmt.Println("mp=",mp)
 		cm.broadcast(mp)
-	
 	}
 	if _, ok := cm.readyValidators[addr]; !ok {
 		cm.writeMapMu.Lock()
 		cm.readyValidators[addr] = struct{}{}
 		cm.writeMapMu.Unlock()
 	}
+
 	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
 		log.Debug("msigProposal have not finished yet")
 		return false
@@ -724,13 +673,6 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 	// 1. valid proposal
 	// 2. only one proposal
 	// 3. add msig
-	fmt.Println("# collMsig from =",peer)
-	fmt.Println("cmHR:", "H:", cm.Height(), "R:", cm.Round())
-	hm := cm.getHeightManager(cm.Height())
-	rm := hm.getRoundManager(cm.Round())
-	rm.proposerPeer = peer
-	fmt.Println("this is rm.proposerPeer ",rm.proposerPeer)
-
 	if p == nil {
 		panic("nil peer in cm AddProposal")
 	}
@@ -771,19 +713,19 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 	if p.GetHeight() > cm.Height() {
 		cm.synchronizer.request(cm.Height(), p.GetHeight())
 	}
-
 	if cm.contract.isMsigProposer(p, cm.coinbase) {
-		log.Info("in collectMsig, i am wintness")
+		log.Info("in collectMsig, i am msig proposer")
 		mp, _ := btypes.NewMsigProposal(cm.Height(), cm.Round(), p)
-		err := mp.Msig(cm.privkey, cm.coinbase)
+		err := mp.Msign(cm.privkey, cm.coinbase)
 		if err != nil {
 			log.Info("in collectMsig, msig failed")
 			return false
 		}
 		cm.Sign(mp)
-		fmt.Println("in collect Misg from",peer)
-		cm.ReturnMsg(mp,rm.proposerPeer)
-		//cm.broadcast(mp)
+		cm.broadcast(mp)
+
+		fmt.Println("in cm.collectMsig, mp.MsigVs:", mp.Msig.MsigVs)
+
 		isValid := cm.getHeightManager(mp.GetHeight()).addMsigProposal(mp)
 		if !isValid {
 			log.Debug("hm.rm.addMsigProposal failed")
@@ -794,12 +736,11 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 	if p.GetBlock() == nil {
 		log.Info("In cm.collectMsig, proposal.GetBlock is nil")
 	}
-	
 
-	//hm := cm.getHeightManager(p.GetHeight())
-	//rm := hm.getRoundManager(p.GetRound())
+	hm := cm.getHeightManager(p.GetHeight())
+	rm := hm.getRoundManager(p.GetRound())
+
 	rm.proposerPeer = peer
-	
 	cm.addBlockCandidates(p)
 	cm.getHeightMu.Unlock()
 	return isValid
@@ -1026,7 +967,7 @@ type RoundManager struct {
 	timeoutTime      float64
 	timeoutPrecommit float64
 	roundProcessMu   sync.Mutex
-	proposerPeer 	 *peer
+	proposerPeer     *peer
 }
 
 func NewRoundManager(heightmanager *HeightManager, round uint64) *RoundManager {
@@ -1042,7 +983,7 @@ func NewRoundManager(heightmanager *HeightManager, round uint64) *RoundManager {
 		proposal:         nil,
 		mProposal:        nil,
 		voteLock:         nil,
-		proposerPeer:	  nil,
+		proposerPeer:     nil,
 	}
 }
 
@@ -1206,9 +1147,9 @@ func (rm *RoundManager) mkProposal(roundLockset *btypes.LockSet, block *types.Bl
 	signingLockset := rm.cm.lastCommittingLockset()
 	if signingLockset == nil {
 		log.Info("Do not have quorum lockset of last height")
-		signingLockset = rm.cm.getLocksetByHeight(block.NumberU64()-1)
+		signingLockset = rm.cm.getLocksetByHeight(block.NumberU64() - 1)
 		fmt.Println("signingLockset:", signingLockset)
-	}	
+	}
 	var proposal btypes.Proposal
 	if roundLockset != nil {
 		log.Info("LockSet(R-1) Exist")

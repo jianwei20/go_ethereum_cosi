@@ -327,21 +327,21 @@ func (s HashCounts) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
 
 func (lockset *LockSet) sortByBlockhash() HashCounts {
 	// bhs := make(HashCount, 0, len(lockset.votes))
-	log.Info("in sortByBlockhash")
+	// log.Info("in sortByBlockhash")
 	bhs := make(map[common.Hash]int)
 	for _, v := range lockset.Votes {
 		if v.VoteType == 1 {
 			bhs[v.Blockhash] += 1
 		}
 	}
-	fmt.Println("made bhs, bhs:", bhs)
+	// fmt.Println("made bhs, bhs:", bhs)
 	hs := make(HashCounts, 0)
 	for bh, count := range bhs {
 		hs = append(hs, HashCount{blockhash: bh, count: count})
 	}
-	fmt.Println("made hs, hs:", hs)
+	// fmt.Println("made hs, hs:", hs)
 	sort.Sort(hs)
-	fmt.Println("sorted hs, hs:", hs)
+	// fmt.Println("sorted hs, hs:", hs)
 	return hs
 }
 
@@ -1137,20 +1137,35 @@ type Proposal interface {
 	LockSet() *LockSet
 
 	//msig
-	Msig(prv *ecdsa.PrivateKey, addr common.Address) error
+	Msign(prv *ecdsa.PrivateKey, addr common.Address) error
 	MsigFinished(msigProposers []common.Address) bool
+}
+
+type MsigSet struct {
+	MsigAddrs []common.Address
+	MsigVs    []*big.Int
+	MsigRs    []*big.Int
+	MsigSs    []*big.Int
+}
+
+func NewMsigSet() *MsigSet {
+	Msig := &MsigSet{
+		MsigAddrs: make([]common.Address, 1),
+		MsigVs:    make([]*big.Int, 1),
+		MsigRs:    make([]*big.Int, 1),
+		MsigSs:    make([]*big.Int, 1),
+	}
+	return Msig
 }
 
 type MsigProposal struct {
 	sender         *common.Address
-	V              *big.Int                    // signature
-	R, S           *big.Int                    // signature
-	msigV          map[common.Address]*big.Int // msig
-	msigR, msigS   map[common.Address]*big.Int // msig
+	V              *big.Int // signature
+	R, S           *big.Int // signature
+	Msig           *MsigSet
 	Height         uint64
 	Round          uint64
-	//Block          *types.Block
-	BHash		   common.Hash
+	BHash          common.Hash
 	RoundLockset   *LockSet
 	SigningLockset *LockSet
 }
@@ -1162,11 +1177,8 @@ func NewMsigProposal(height uint64, round uint64, proposal Proposal) (*MsigPropo
 		mp = &MsigProposal{
 			R:              new(big.Int),
 			S:              new(big.Int),
-			msigR:          map[common.Address]*big.Int{},
-			msigS:          map[common.Address]*big.Int{},
 			Height:         p.Height,
 			Round:          p.Round,
-			//Block:          p.Block,
 			SigningLockset: p.SigningLockset,
 			RoundLockset:   p.RoundLockset,
 		}
@@ -1174,15 +1186,13 @@ func NewMsigProposal(height uint64, round uint64, proposal Proposal) (*MsigPropo
 		mp = &MsigProposal{
 			R:              new(big.Int),
 			S:              new(big.Int),
-			msigR:          map[common.Address]*big.Int{},
-			msigS:          map[common.Address]*big.Int{},
 			Height:         p.Height,
 			Round:          p.Round,
-			//Block:          p.Block,
 			SigningLockset: NewLockSet(4, []*Vote{}),
 			RoundLockset:   p.RoundLockset,
 		}
 	}
+	mp.Msig = NewMsigSet()
 	mp.BHash = proposal.Blockhash()
 	return mp, nil
 }
@@ -1210,7 +1220,7 @@ func (mp *MsigProposal) Hash() common.Hash {
 		mp.sender,
 		mp.Height,
 		mp.Round,
-		//mp.Block,
+		//mp.BHash,
 		mp.SigningLockset,
 		mp.RoundLockset,
 	})
@@ -1219,7 +1229,7 @@ func (mp *MsigProposal) SigHash() common.Hash {
 	return rlpHash([]interface{}{
 		mp.Height,
 		mp.Round,
-		//mp.Block,
+		//mp.BHash,
 		mp.SigningLockset,
 		mp.RoundLockset,
 	})
@@ -1243,14 +1253,14 @@ func (mp *MsigProposal) Sign(prv *ecdsa.PrivateKey) error {
 	return nil
 }
 
-func (mp *MsigProposal) Msig(prv *ecdsa.PrivateKey, addr common.Address) error {
-
-	fmt.Println("Msig=  @cm.privkey =",prv,"##cm.coinbase=",addr)
-
-	if mp.msigV[addr] != nil {
-		log.Info("in msig already sign")
-		return errors.New("already sign")
+func (mp *MsigProposal) Msign(prv *ecdsa.PrivateKey, addr common.Address) error {
+	for _, s := range mp.Msig.MsigAddrs {
+		if s == addr {
+			log.Info("in msign, already sign")
+			return errors.New("already sign")
+		}
 	}
+
 	_, err := mp.mSignECDSA(prv, mp.SigHash(), addr)
 	if err != nil {
 		log.Info("mp.mSignECDSA fail")
@@ -1261,21 +1271,24 @@ func (mp *MsigProposal) Msig(prv *ecdsa.PrivateKey, addr common.Address) error {
 
 func (mp *MsigProposal) MsigFinished(msigProposers []common.Address) bool {
 	log.Info("in MsigFinished")
-	//fmt.Println("==========\n", len(mp.msigV), "\n", mp.msigV, "\n", "=============")
-	//fmt.Println("block:", mp.Block)
-	/*if len(mp.msigV) != len(msigProposers) {
-		log.Info("there's no enough sig in the msigV", "len(sigV)", len(mp.msigV), "len(msigProposers)", len(msigProposers))
+	fmt.Println("len(mp.Msig.MsigVs):", len(mp.Msig.MsigVs), "mp.MsigVs:", mp.Msig.MsigVs)
+	if len(mp.Msig.MsigVs) != len(msigProposers)+1 {
+		log.Info("dont have enough msigs")
 		return false
 	}
-	for _, addr := range msigProposers {
-		if v := mp.msigV[addr]; v != nil {
-			V := byte(mp.V.Uint64() - 27)
-			R, S := mp.msigR[addr], mp.msigS[addr]
+
+	for i, v := range mp.Msig.MsigVs {
+		if i == 0 {
+			continue
+		} else {
+			V := byte(v.Uint64() - 27)
+			R, S := mp.Msig.MsigRs[i], mp.Msig.MsigSs[i]
 			if !crypto.ValidateSignatureValues(V, R, S, true) {
+				log.Info("invalid msigs")
 				return false
 			}
 		}
-	}*/
+	}
 	return true
 }
 
@@ -1336,15 +1349,11 @@ func (mp *MsigProposal) mWithSignature(sig []byte, addr common.Address) (*MsigPr
 	if len(sig) != 65 {
 		panic(fmt.Sprintf("wrong size for multi-signature: got %d, want 65", len(sig)))
 	}
+	mp.Msig.MsigAddrs = append(mp.Msig.MsigAddrs, addr)
+	mp.Msig.MsigRs = append(mp.Msig.MsigRs, new(big.Int).SetBytes(sig[:32]))
+	mp.Msig.MsigSs = append(mp.Msig.MsigSs, new(big.Int).SetBytes(sig[32:64]))
+	mp.Msig.MsigVs = append(mp.Msig.MsigVs, new(big.Int).SetBytes([]byte{sig[64] + 27}))
 
-	if mp.msigV == nil {
-		mp.msigV = make(map[common.Address]*big.Int)
-	}
-
-	mp.msigR[addr] = new(big.Int).SetBytes(sig[:32])
-	mp.msigS[addr] = new(big.Int).SetBytes(sig[32:64])
-	mp.msigV[addr] = new(big.Int).SetBytes([]byte{sig[64] + 27})
-	//fmt.Println("mp.msigV", mp.msigV)
 	return mp, nil
 }
 
@@ -1402,41 +1411,32 @@ func NewBlockProposal(height uint64, round uint64, block *types.Block, signingLo
 		return nil, errors.New("lockset.height / block.number mismatch")
 	}
 	if roundLockset != nil && height != roundLockset.Height() {
-		log.Info("in newbp, 4")
 		return nil, errors.New("height mismatch")
 	}
 	if has, _ := signingLockset.HasQuorum(); !(round > 0 || has) {
-		log.Info("in newbp, 5")
 		return nil, errors.New("R0 lockset == signing lockset needs quorum")
 	}
 	if round == 0 && roundLockset != nil {
 		if roundLockset.Height() != block.NumberU64()-1 {
-			log.Info("in newbp, 6")
 			return nil, errors.New("R0 round lockset must be from previous height")
 		}
 	}
 	if !(round == 0) && !(round == roundLockset.Round()+1) {
-		log.Info("in newbp, 7")
 		return nil, errors.New("Rn round lockset must be from previous round")
 	}
 	if has, _ := bp.SigningLockset.HasQuorum(); !has {
-		log.Info("in newbp, 8")
 		return nil, errors.New("signing lockset needs quorum")
 	}
 	if !(bp.SigningLockset.Height() == bp.Height-1) {
-		log.Info("in newbp, 9")
 		return nil, errors.New("signing lockset height mismatch")
 	}
 	if roundLockset != nil {
 		if quorum, _ := roundLockset.HasQuorum(); quorum {
-			log.Info("in newbp, 10")
 			return nil, errors.New("should be votinginstruction if there is quorum")
 		}
 	} else {
-		log.Info("in newbp, 11")
 		bp.RoundLockset = NewLockSet(0, Votes{})
 	}
-	log.Info("in newbp, 12")
 	return bp, nil
 }
 
@@ -1485,7 +1485,7 @@ func (bp *BlockProposal) SigHash() common.Hash {
 	})
 }
 
-func (bp *BlockProposal) Msig(prv *ecdsa.PrivateKey, addr common.Address) error {
+func (bp *BlockProposal) Msign(prv *ecdsa.PrivateKey, addr common.Address) error {
 	return nil
 }
 
@@ -1630,7 +1630,7 @@ func NewVotingInstruction(height uint64, round uint64, block *types.Block, round
 	}, nil
 }
 
-func (vi *VotingInstruction) Msig(prv *ecdsa.PrivateKey, addr common.Address) error {
+func (vi *VotingInstruction) Msign(prv *ecdsa.PrivateKey, addr common.Address) error {
 	return nil
 }
 

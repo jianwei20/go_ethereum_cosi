@@ -179,7 +179,7 @@ func (pm *ProtocolManager) handle(p *peer) error {
 		p.Log().Error("Ethereum peer registration failed", "err", err)
 		return err
 	}
-	//defer pm.removePeer(p.id)
+	defer pm.removePeer(p.id)
 
 	for {
 		if err := pm.handleBFTMsg(p); err != nil {
@@ -296,9 +296,6 @@ func (pm *ProtocolManager) handleBFTMsg(p *peer) error {
 		}
 	case msg.Code == MsigProposalMsg:
 		log.Info("------Received MsigProposalMsg------")
-		fmt.Println("I received msp from ",p)////////////////////////////////
-		
-
 		var mpData msigProposalData
 		if err := msg.Decode(&mpData); err != nil {
 			return errResp(ErrDecode, "%v: %v", msg, err)
@@ -310,10 +307,9 @@ func (pm *ProtocolManager) handleBFTMsg(p *peer) error {
 		fmt.Println("mpHR:", "H:", mp.Height, "R:", mp.Round, "hash:", mp.Blockhash())
 		fmt.Println("cmHR:", "H:", pm.consensusManager.Height(), "R:", pm.consensusManager.Round())
 		log.Info("---------------------------------------")
-		fmt.Println("mp=",mp)
+
 		if isValid := pm.consensusManager.AddMsigProposal(mp, p); isValid {
 			log.Info("------addmsigproposal success!-------")
-			fmt.Println("mp=",mp)
 		}
 	case msg.Code == VoteMsg:
 		log.Info("------Received VoteMsg------")
@@ -352,48 +348,6 @@ func (pm *ProtocolManager) handleBFTMsg(p *peer) error {
 	return nil
 }
 
-func (pm *ProtocolManager) ReturnBFTMsg(msg interface{},peer *peer) {
-	// TODO: expect origin
-	var err error
-	switch m := msg.(type) {
-	case *btypes.Ready:
-		peers := pm.peers.PeersWithoutHash(m.Hash())
-		// log.Info("There are ", "peer count", len(peers))
-		for _, peer := range peers {
-			log.Info("send Ready msg")
-			fmt.Println("#### peer =",peer)
-			err = peer.SendReadyMsg(m)
-			if err != nil {
-				log.Info("err: ", err)
-			}
-		}
-	case *btypes.BlockProposal:
-		peers := pm.peers.PeersWithoutHash(m.Hash())
-		log.Info("Send NewBlockProposalMsg2: ", m)
-		for _, peer := range peers {
-			peer.SendNewBlockProposal(m)
-		}
-	case *btypes.VotingInstruction:
-		log.Info("Send VotingInstructionMsg2: ", m)
-		peers := pm.peers.PeersWithoutHash(m.Hash())
-		for _, peer := range peers {
-			peer.SendVotingInstruction(m)
-		}
-	case *btypes.MsigProposal:
-		log.Info("Return MsigProposalMsg to ",m)
-		peer.SendMsigProposal(m)
-	case *btypes.Vote:
-		log.Info("Send VoteMsg2")
-		peers := pm.peers.PeersWithoutHash(m.Hash())
-		for _, peer := range peers {
-			peer.SendVote(m)
-		}
-	default:
-		log.Info("broadcast unknown type2:", m)
-	}
-}
-
-
 func (pm *ProtocolManager) BroadcastBFTMsg(msg interface{}) {
 	// TODO: expect origin
 	var err error
@@ -403,7 +357,6 @@ func (pm *ProtocolManager) BroadcastBFTMsg(msg interface{}) {
 		// log.Info("There are ", "peer count", len(peers))
 		for _, peer := range peers {
 			log.Info("send Ready msg")
-			fmt.Println("#### peer =",peer)
 			err = peer.SendReadyMsg(m)
 			if err != nil {
 				log.Info("err: ", err)
@@ -422,7 +375,7 @@ func (pm *ProtocolManager) BroadcastBFTMsg(msg interface{}) {
 			peer.SendVotingInstruction(m)
 		}
 	case *btypes.MsigProposal:
-		log.Info("Send MsigProposalMsg")
+		log.Info("in bfthandler Send MsigProposalMsg")
 		peers := pm.peers.PeersWithoutHash(m.Hash())
 		for _, peer := range peers {
 			peer.SendMsigProposal(m)

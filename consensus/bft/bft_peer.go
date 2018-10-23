@@ -25,6 +25,7 @@ func (p *peer) SendVotingInstruction(vi *types.VotingInstruction) error {
 	return p2p.Send(p.rw, VotingInstructionMsg, &votingInstructionData{VotingInstruction: vi})
 }
 func (p *peer) SendMsigProposal(mp *types.MsigProposal) error {
+	log.Info("Sending MsigProposalMsg")
 	p.broadcastFilter.Add(mp.Hash())
 	return p2p.Send(p.rw, MsigProposalMsg, &msigProposalData{MsigProposal: mp})
 }

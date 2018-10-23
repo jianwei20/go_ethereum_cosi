@@ -1,4 +1,4 @@
-# ${1}: local/aws
+ ${1}: local/aws
 # ${2}: number of nodes, 4/8/12/16
 # ${3}: index of node1 ~ node16
 
