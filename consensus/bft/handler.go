@@ -347,6 +347,49 @@ func (pm *ProtocolManager) handleBFTMsg(p *peer) error {
 	}
 	return nil
 }
+//jianwei
+func (pm *ProtocolManager) ReturnBFTMsg(msg interface{},peer *peer) {
+	// TODO: expect origin
+	var err error
+	switch m := msg.(type) {
+	case *btypes.Ready:
+		peers := pm.peers.PeersWithoutHash(m.Hash())
+		// log.Info("There are ", "peer count", len(peers))
+		for _, peer := range peers {
+			log.Info("send Ready msg")
+			fmt.Println("#### peer =",peer)
+			err = peer.SendReadyMsg(m)
+			if err != nil {
+				log.Info("err: ", err)
+			}
+		}
+	case *btypes.BlockProposal:
+		peers := pm.peers.PeersWithoutHash(m.Hash())
+		log.Info("Send NewBlockProposalMsg2: ", m)
+		for _, peer := range peers {
+			peer.SendNewBlockProposal(m)
+		}
+	case *btypes.VotingInstruction:
+		log.Info("Send VotingInstructionMsg2: ", m)
+		peers := pm.peers.PeersWithoutHash(m.Hash())
+		for _, peer := range peers {
+			peer.SendVotingInstruction(m)
+		}
+	case *btypes.MsigProposal:
+		log.Info("Return MsigProposalMsg to ",m)
+		peer.SendMsigProposal(m)
+	case *btypes.Vote:
+		log.Info("Send VoteMsg2")
+		peers := pm.peers.PeersWithoutHash(m.Hash())
+		for _, peer := range peers {
+			peer.SendVote(m)
+		}
+	default:
+		log.Info("broadcast unknown type2:", m)
+	}
+}
+
+//
 
 func (pm *ProtocolManager) BroadcastBFTMsg(msg interface{}) {
 	// TODO: expect origin

@@ -548,6 +548,12 @@ func (cm *ConsensusManager) setProposalLock(block *types.Block) {
 	// TODO: update this
 	cm.proposalLock = block
 }
+//jianwei
+func (cm *ConsensusManager) ReturnMsg(msg interface{},peer *peer) {
+	cm.pm.ReturnBFTMsg(msg,peer)
+}
+
+//
 
 func (cm *ConsensusManager) broadcast(msg interface{}) {
 	cm.pm.BroadcastBFTMsg(msg)
@@ -673,6 +679,15 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 	// 1. valid proposal
 	// 2. only one proposal
 	// 3. add msig
+	//jianwei
+	fmt.Println("# collMsig from =",peer)
+	fmt.Println("cmHR:", "H:", cm.Height(), "R:", cm.Round())
+	hm := cm.getHeightManager(cm.Height())
+	rm := hm.getRoundManager(cm.Round())
+	rm.proposerPeer = peer
+	fmt.Println("this is rm.proposerPeer ",rm.proposerPeer)
+
+	//
 	if p == nil {
 		panic("nil peer in cm AddProposal")
 	}
@@ -714,7 +729,7 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 		cm.synchronizer.request(cm.Height(), p.GetHeight())
 	}
 	if cm.contract.isMsigProposer(p, cm.coinbase) {
-		log.Info("in collectMsig, i am msig proposer")
+		log.Info("in collectMsig, i am msig wintness")
 		mp, _ := btypes.NewMsigProposal(cm.Height(), cm.Round(), p)
 		err := mp.Msign(cm.privkey, cm.coinbase)
 		if err != nil {
@@ -723,6 +738,9 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 		}
 		cm.Sign(mp)
 		cm.broadcast(mp)
+		//jianwei
+		cm.ReturnMsg(mp,rm.proposerPeer)
+		//
 
 		fmt.Println("in cm.collectMsig, mp.MsigVs:", mp.Msig.MsigVs)
 
@@ -737,8 +755,8 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 		log.Info("In cm.collectMsig, proposal.GetBlock is nil")
 	}
 
-	hm := cm.getHeightManager(p.GetHeight())
-	rm := hm.getRoundManager(p.GetRound())
+	//hm := cm.getHeightManager(p.GetHeight())
+	//rm := hm.getRoundManager(p.GetRound())
 
 	rm.proposerPeer = peer
 	cm.addBlockCandidates(p)

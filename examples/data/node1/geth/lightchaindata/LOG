@@ -1,6 +1,6 @@
-=============== Oct 17, 2018 (CST) ===============
-16:32:04.494064 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:32:04.495068 db@open opening
-16:32:04.496687 version@stat F·[] S·0B[] Sc·[]
-16:32:04.498262 db@janitor F·2 G·0
-16:32:04.498416 db@open done T·3.320036ms
+=============== Oct 28, 2018 (CST) ===============
+14:44:05.323273 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:44:05.323870 db@open opening
+14:44:05.324952 version@stat F·[] S·0B[] Sc·[]
+14:44:05.325676 db@janitor F·2 G·0
+14:44:05.325731 db@open done T·1.833591ms
