@@ -626,6 +626,7 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 	// 1. block hasValid sig
 	// 2. push block into blockCandidates without msig
 	log.Debug("--------------in AddMsigProposal----------------")
+	
 	addr, err := mp.From()
 	if err != nil {
 		log.Debug("msigproposal sender error", "err", err)
@@ -658,17 +659,41 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		cm.readyValidators[addr] = struct{}{}
 		cm.writeMapMu.Unlock()
 	}
-
 	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
 		log.Debug("msigProposal have not finished yet")
 		return false
 	}
+
+	
+	//jianwei
+	//rm := cm.getHeightManager(cm.Height()).getRoundManager(cm.Round())
+	fmt.Println("H====: ",cm.Height(),"P====",cm.Round())
+	if rm.proposerPeer==nil{
+		log.Info("In addMsig I am leader")
+		fmt.Println("mp=",mp)
+	/*
+	if(){
+		newmp, _ := btypes.NewMsigProposal(cm.Height(), cm.Round(), p)}else
+		{
+
+		}	
+	*/
+	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
+		log.Debug("msigProposal have not finished yet")
+		return false
+	}	
+
+		cm.broadcast(mp)
+
+		}
+//
 	cm.getHeightMu.Lock()
 	isValid := cm.getHeightManager(mp.GetHeight()).addMsigProposal(mp)
 	if !isValid {
 		log.Debug("hm.rm.addMsigProposal failed")
 		return false
 	}
+
 	//cm.addBlockCandidates(mp)
 	cm.getHeightMu.Unlock()
 	return isValid
@@ -737,7 +762,7 @@ func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 			return false
 		}
 		cm.Sign(mp)
-		cm.broadcast(mp)
+		//cm.broadcast(mp)
 		//jianwei
 		cm.ReturnMsg(mp,rm.proposerPeer)
 		//
