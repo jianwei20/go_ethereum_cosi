@@ -677,11 +677,12 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		{
 
 		}	
-	*/
+	
 	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
 		log.Debug("msigProposal have not finished yet")
 		return false
 	}	
+	*/
 
 		cm.broadcast(mp)
 
