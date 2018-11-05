@@ -626,7 +626,7 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 	// 1. block hasValid sig
 	// 2. push block into blockCandidates without msig
 	log.Debug("--------------in AddMsigProposal----------------")
-	
+	/*
 	addr, err := mp.From()
 	if err != nil {
 		log.Debug("msigproposal sender error", "err", err)
@@ -663,26 +663,26 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		log.Debug("msigProposal have not finished yet")
 		return false
 	}
-
+*/
 	
 	//jianwei
-	//rm := cm.getHeightManager(cm.Height()).getRoundManager(cm.Round())
-	fmt.Println("H====: ",cm.Height(),"P====",cm.Round())
+	rm := cm.getHeightManager(cm.Height()).getRoundManager(cm.Round())
+	//fmt.Println("H====: ",cm.Height(),"P====",cm.Round())
 	if rm.proposerPeer==nil{
 		log.Info("In addMsig I am leader")
-		fmt.Println("mp=",mp)
-	/*
-	if(){
-		newmp, _ := btypes.NewMsigProposal(cm.Height(), cm.Round(), p)}else
-		{
-
+		//fmt.Println("mp=",mp)
+	if rm.cosiproposal==nil{
+		//fmt.Println("mp=",mp)
+		//fmt.Println("cosip=",rm.cosiproposal)
+		rm.cosiproposal=mp
+		//fmt.Println("cosip==",rm.cosiproposal)
+		}else{
+		//fmt.Println("mp=",mp)
+		//fmt.Println("cosip=",rm.cosiproposal)
 		}	
-	
-	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
-		log.Debug("msigProposal have not finished yet")
-		return false
-	}	
-	*/
+
+
+
 
 		cm.broadcast(mp)
 
@@ -1012,6 +1012,7 @@ type RoundManager struct {
 	timeoutPrecommit float64
 	roundProcessMu   sync.Mutex
 	proposerPeer     *peer
+	cosiproposal     btypes.Proposal
 }
 
 func NewRoundManager(heightmanager *HeightManager, round uint64) *RoundManager {
@@ -1028,6 +1029,7 @@ func NewRoundManager(heightmanager *HeightManager, round uint64) *RoundManager {
 		mProposal:        nil,
 		voteLock:         nil,
 		proposerPeer:     nil,
+		cosiproposal:      nil,
 	}
 }
 

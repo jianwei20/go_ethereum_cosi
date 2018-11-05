@@ -1,0 +1,2566 @@
+INFO [11-05|16:19:42] Starting peer-to-peer node               instance=Geth/v1.6.7-unstable-b6a0e85f/darwin-amd64/go1.9.7
+INFO [11-05|16:19:42] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth/chaindata cache=128 handles=1024
+WARN [11-05|16:19:42] Upgrading chain database to use sequential keys 
+INFO [11-05|16:19:42] Initialised chain configuration          config="{ChainID: 2235 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Metropolis: <nil> Engine: ethash}"
+INFO [11-05|16:19:42] config bft is                            bft=true
+WARN [11-05|16:19:42] Upgrading db log bloom bins 
+INFO [11-05|16:19:42] Database conversion successful 
+INFO [11-05|16:19:42] Bloom-bin upgrade completed              elapsed=440.584µs
+INFO [11-05|16:19:42] Initialising Ethereum protocol           versions="[63 62]" network=2234
+INFO [11-05|16:19:42] Loaded most recent local header          number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [11-05|16:19:42] Loaded most recent local full block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [11-05|16:19:42] Loaded most recent local fast block      number=0 hash=6f3c1c…1bf138 td=1048576
+INFO [11-05|16:19:42] in NewTxPool, call resetState 
+INFO [11-05|16:19:42] in NewTxPool, call pool.eventLoog() 
+INFO [11-05|16:19:42] Allocated cache and file handles         database=/Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth/bftData   cache=128 handles=1024
+INFO [11-05|16:19:42] addVote to                               height=0 round=0 from=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+ready: 1 need: 2.6666667
+INFO [11-05|16:19:42] consensusManager not ready  
+ready: 1 need: 2.6666667
+INFO [11-05|16:19:42] Starting P2P networking 
+INFO [11-05|16:19:42] RLPx listener up                         self="enode://94dd98401cf6ca0418580bb77ad0606a35ae8f442b22ab0f81011d8d2c78e70ff779c1d53d015640d79a13f0be99161ae3ff3adb60633ca03a7b542cbe116882@[::]:30305?discport=0"
+INFO [11-05|16:19:42] ---In BFTvalidatorCommitBlock--- 
+INFO [11-05|16:19:42] IPC endpoint opened: /Users/sujianwei20/new_misgcode/go_ethereum_cosi/examples/data/node3/geth.ipc 
+INFO [11-05|16:19:42] HTTP endpoint opened: http://127.0.0.1:8547 
+ready: 1 need: 2.6666667
+INFO [11-05|16:19:42] consensusManager not ready  
+ready: 1 need: 2.6666667
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] send Ready msg 
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:19:42] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:42] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [125 87 122 89 123 39 66 180 152 203 92 240 194 108 220 215 38 211 158 110]
+ready: 4 need: 2.6666667
+ready: 4 need: 2.6666667
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] -----------------consensusManager Ready------------------------- 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] send Ready msg 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+INFO [11-05|16:19:43] Handle BFT Msg,                          msg="msg #8 (78 bytes)"
+INFO [11-05|16:19:43] ------Received ReadMsg------ 
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+AddReady from: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229]
+INFO [11-05|16:21:56] Transaction pool price threshold updated price=18000000000
+INFO [11-05|16:21:56] Starting mining operation 
+INFO [11-05|16:21:58] Handle BFT Msg,                          msg="msg #11 (172922 bytes)"
+INFO [11-05|16:21:58] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 0
+cmHR: H: 1 R: 0
+INFO [11-05|16:21:58] --------------------------------------- 
+# collMsig from = Peer 6d11b37ef4fc909a [eth/63]
+cmHR: H: 1 R: 0
+this is rm.proposerPeer  Peer 6d11b37ef4fc909a [eth/63]
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [11-05|16:21:58] cm add BlockProposal                     h=1 r=0
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [11-05|16:21:58] in collectMsig, i am msig wintness 
+INFO [11-05|16:21:58] Return MsigProposalMsg to                LOG15_ERROR= LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [11-05|16:21:58] Sending MsigProposalMsg 
+in cm.collectMsig, mp.MsigVs: [<nil> 27]
+INFO [11-05|16:21:58] In addBlockCandidates!! 
+INFO [11-05|16:21:58] -------in handle NewBlockProposalMsg, success!------- 
+INFO [11-05|16:21:58] Handle BFT Msg,                          msg="msg #18 (345 bytes)"
+INFO [11-05|16:21:58] ------Received MsigProposalMsg------ 
+mpHR: H: 1 R: 0 hash: [51 54 124 67 196 193 135 88 104 82 6 247 125 138 1 177 177 54 222 121 236 165 165 33 170 102 60 164 26 10 251 246]
+cmHR: H: 1 R: 0
+INFO [11-05|16:21:58] --------------------------------------- 
+INFO [11-05|16:21:58] in msign, already sign 
+INFO [11-05|16:21:58] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:21:58] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 1 voteHash: [51 54 124 67 196 193 135 88 104 82 6 247 125 138 1 177 177 54 222 121 236 165 165 33 170 102 60 164 26 10 251 246]
+cmHR: H: 1 R: 0
+INFO [11-05|16:21:58] --------------------------------------- 
+INFO [11-05|16:21:58] addVote to                               height=1 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:21:58] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:21:58] Commit new mining work                   number=1 txs=1598 uncles=0 elapsed=2.466s
+INFO [11-05|16:21:58] Sealing                                  block n=1
+StartConsensus, 1541406118682948000
+INFO [11-05|16:21:58] Start Process 
+INFO [11-05|16:21:58] in cm.Process, check lastCommittingLockset() 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 0
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 1
+INFO [11-05|16:21:58] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:58] ---------------process------------------ 
+INFO [11-05|16:21:58] In RM Process                            height=1 round=0
+INFO [11-05|16:21:58] --------In rm.propose------- 
+INFO [11-05|16:21:58] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:58] in vote in RM                            height=1 round=0
+INFO [11-05|16:21:58] vote mp 
+INFO [11-05|16:21:58] vote success in                          height=1 round=0
+INFO [11-05|16:21:58] Send VoteMsg 
+INFO [11-05|16:21:58] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:58] rm lockset is not valid yet 
+INFO [11-05|16:21:58] after cm.process() 
+INFO [11-05|16:21:58] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:58] ---------------process------------------ 
+INFO [11-05|16:21:58] In RM Process                            height=1 round=0
+INFO [11-05|16:21:58] --------In rm.propose------- 
+INFO [11-05|16:21:58] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:58] voted 
+INFO [11-05|16:21:58] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:58] rm lockset is not valid yet 
+INFO [11-05|16:21:58] after cm.process() 
+INFO [11-05|16:21:58] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:58] ---------------process------------------ 
+INFO [11-05|16:21:58] In RM Process                            height=1 round=0
+INFO [11-05|16:21:58] --------In rm.propose------- 
+INFO [11-05|16:21:58] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:58] voted 
+INFO [11-05|16:21:58] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:58] rm lockset is not valid yet 
+INFO [11-05|16:21:58] after cm.process() 
+INFO [11-05|16:21:58] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:58] ---------------process------------------ 
+INFO [11-05|16:21:58] In RM Process                            height=1 round=0
+INFO [11-05|16:21:58] --------In rm.propose------- 
+INFO [11-05|16:21:58] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:58] voted 
+INFO [11-05|16:21:58] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:58] in HasQuorum 
+INFO [11-05|16:21:58] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:58] rm lockset is not valid yet 
+INFO [11-05|16:21:58] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:21:59] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:21:59] ---------------process------------------ 
+INFO [11-05|16:21:59] In RM Process                            height=1 round=0
+INFO [11-05|16:21:59] --------In rm.propose------- 
+INFO [11-05|16:21:59] ---------------in rm.vote----------------- 
+INFO [11-05|16:21:59] voted 
+INFO [11-05|16:21:59] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:21:59] in HasQuorum 
+INFO [11-05|16:21:59] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:21:59] rm lockset is not valid yet 
+INFO [11-05|16:21:59] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:00] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:00] ---------------process------------------ 
+INFO [11-05|16:22:00] In RM Process                            height=1 round=0
+INFO [11-05|16:22:00] --------In rm.propose------- 
+INFO [11-05|16:22:00] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:00] voted 
+INFO [11-05|16:22:00] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:00] in HasQuorum 
+INFO [11-05|16:22:00] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:00] rm lockset is not valid yet 
+INFO [11-05|16:22:00] after cm.process() 
+INFO [11-05|16:22:01] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:01] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 0
+INFO [11-05|16:22:01] --------------------------------------- 
+INFO [11-05|16:22:01] addVote to                               height=1 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:01] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:01] ------Received VoteMsg------ 
+voteHR: H: 1 R: 0 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 0
+INFO [11-05|16:22:01] --------------------------------------- 
+INFO [11-05|16:22:01] addVote to                               height=1 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:01] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:01] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:01] ---------------process------------------ 
+INFO [11-05|16:22:01] In RM Process                            height=1 round=0
+INFO [11-05|16:22:01] --------In rm.propose------- 
+INFO [11-05|16:22:01] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:01] voted 
+INFO [11-05|16:22:01] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:01] in HasQuorum 
+INFO [11-05|16:22:01] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:01] rm lockset is not valid yet 
+INFO [11-05|16:22:01] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:02] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:02] ---------------process------------------ 
+INFO [11-05|16:22:02] In RM Process                            height=1 round=0
+INFO [11-05|16:22:02] --------In rm.propose------- 
+INFO [11-05|16:22:02] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:02] voted 
+INFO [11-05|16:22:02] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:02] in HasQuorum 
+INFO [11-05|16:22:02] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:02] rm lockset is not valid yet 
+INFO [11-05|16:22:02] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=0
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] voted 
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] Handle BFT Msg,                          msg="msg #11 (173239 bytes)"
+INFO [11-05|16:22:03] -------Received NewBlockProposalMsg------- 
+bpHR: H: 1 R: 1
+cmHR: H: 1 R: 1
+INFO [11-05|16:22:03] --------------------------------------- 
+# collMsig from = Peer d67104e65b61fca1 [eth/63]
+cmHR: H: 1 R: 1
+this is rm.proposerPeer  Peer d67104e65b61fca1 [eth/63]
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] cm add BlockProposal                     h=1 r=1
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 0
+INFO [11-05|16:22:03] In addBlockCandidates!! 
+INFO [11-05|16:22:03] -------in handle NewBlockProposalMsg, success!------- 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] Handle BFT Msg,                          msg="msg #18 (345 bytes)"
+INFO [11-05|16:22:03] ------Received MsigProposalMsg------ 
+mpHR: H: 1 R: 0 hash: [51 54 124 67 196 193 135 88 104 82 6 247 125 138 1 177 177 54 222 121 236 165 165 33 170 102 60 164 26 10 251 246]
+cmHR: H: 1 R: 1
+INFO [11-05|16:22:03] --------------------------------------- 
+INFO [11-05|16:22:03] in msign, already sign 
+INFO [11-05|16:22:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:03] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 1
+INFO [11-05|16:22:03] --------------------------------------- 
+INFO [11-05|16:22:03] addVote to                               height=1 round=1 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:03] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:03] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:03] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 1 voteHash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 1
+INFO [11-05|16:22:03] --------------------------------------- 
+INFO [11-05|16:22:03] addVote to                               height=1 round=1 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:03] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:03] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:03] ---------------process------------------ 
+INFO [11-05|16:22:03] In RM Process                            height=1 round=1
+INFO [11-05|16:22:03] --------In rm.propose------- 
+INFO [11-05|16:22:03] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:03] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:03] Timeout time not reach, curr vs timeout: curr=1541406123.000 timeout=1541406130.500
+INFO [11-05|16:22:03] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:03] in HasQuorum 
+INFO [11-05|16:22:03] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:03] rm lockset is not valid yet 
+INFO [11-05|16:22:03] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:04] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:04] ---------------process------------------ 
+INFO [11-05|16:22:04] In RM Process                            height=1 round=1
+INFO [11-05|16:22:04] --------In rm.propose------- 
+INFO [11-05|16:22:04] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:04] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:04] Timeout time not reach, curr vs timeout: curr=1541406124.000 timeout=1541406130.500
+INFO [11-05|16:22:04] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:04] in HasQuorum 
+INFO [11-05|16:22:04] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:04] rm lockset is not valid yet 
+INFO [11-05|16:22:04] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:05] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:05] ---------------process------------------ 
+INFO [11-05|16:22:05] In RM Process                            height=1 round=1
+INFO [11-05|16:22:05] --------In rm.propose------- 
+INFO [11-05|16:22:05] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:05] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:05] Timeout time not reach, curr vs timeout: curr=1541406125.000 timeout=1541406130.500
+INFO [11-05|16:22:05] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:05] in HasQuorum 
+INFO [11-05|16:22:05] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:05] rm lockset is not valid yet 
+INFO [11-05|16:22:05] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:06] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:06] ---------------process------------------ 
+INFO [11-05|16:22:06] In RM Process                            height=1 round=1
+INFO [11-05|16:22:06] --------In rm.propose------- 
+INFO [11-05|16:22:06] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:06] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:06] Timeout time not reach, curr vs timeout: curr=1541406126.000 timeout=1541406130.500
+INFO [11-05|16:22:06] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:06] in HasQuorum 
+INFO [11-05|16:22:06] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:06] rm lockset is not valid yet 
+INFO [11-05|16:22:06] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] in vote in RM                            height=1 round=1
+INFO [11-05|16:22:07] vote previous vote 
+INFO [11-05|16:22:07] vote success in                          height=1 round=1
+INFO [11-05|16:22:07] Send VoteMsg 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:07] ------Received VoteMsg------ 
+voteHR: H: 1 R: 1 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 1 R: 1
+INFO [11-05|16:22:07] --------------------------------------- 
+INFO [11-05|16:22:07] addVote to                               height=1 round=1 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:07] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:07] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:07] ---------------process------------------ 
+INFO [11-05|16:22:07] In RM Process                            height=1 round=1
+INFO [11-05|16:22:07] --------In rm.propose------- 
+INFO [11-05|16:22:07] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:07] voted 
+INFO [11-05|16:22:07] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:07] in HasQuorum 
+INFO [11-05|16:22:07] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:07] rm lockset is not valid yet 
+INFO [11-05|16:22:07] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:08] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:08] ---------------process------------------ 
+INFO [11-05|16:22:08] In RM Process                            height=1 round=1
+INFO [11-05|16:22:08] --------In rm.propose------- 
+INFO [11-05|16:22:08] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:08] voted 
+INFO [11-05|16:22:08] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:08] in HasQuorum 
+INFO [11-05|16:22:08] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:08] rm lockset is not valid yet 
+INFO [11-05|16:22:08] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:09] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:09] ---------------process------------------ 
+INFO [11-05|16:22:09] In RM Process                            height=1 round=1
+INFO [11-05|16:22:09] --------In rm.propose------- 
+INFO [11-05|16:22:09] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:09] voted 
+INFO [11-05|16:22:09] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:09] in HasQuorum 
+INFO [11-05|16:22:09] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:09] rm lockset is not valid yet 
+INFO [11-05|16:22:09] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:10] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:10] ---------------process------------------ 
+INFO [11-05|16:22:10] In RM Process                            height=1 round=1
+INFO [11-05|16:22:10] --------In rm.propose------- 
+INFO [11-05|16:22:10] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:10] voted 
+INFO [11-05|16:22:10] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:10] in HasQuorum 
+INFO [11-05|16:22:10] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:10] rm lockset is not valid yet 
+INFO [11-05|16:22:10] after cm.process() 
+INFO [11-05|16:22:11] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:11] ---------------process------------------ 
+INFO [11-05|16:22:11] In RM Process                            height=1 round=1
+INFO [11-05|16:22:11] --------In rm.propose------- 
+INFO [11-05|16:22:11] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:11] voted 
+INFO [11-05|16:22:11] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] rm lockset is not valid yet 
+INFO [11-05|16:22:11] after cm.process() 
+INFO [11-05|16:22:11] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:11] ---------------process------------------ 
+INFO [11-05|16:22:11] In RM Process                            height=1 round=2
+INFO [11-05|16:22:11] --------In rm.propose------- 
+INFO [11-05|16:22:11] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:11] in vote in RM                            height=1 round=2
+INFO [11-05|16:22:11] Timeout time not reach, curr vs timeout: curr=1541406131.000 timeout=1541406142.250
+INFO [11-05|16:22:11] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] rm lockset is not valid yet 
+INFO [11-05|16:22:11] after cm.process() 
+INFO [11-05|16:22:11] Handle BFT Msg,                          msg="msg #12 (173231 bytes)"
+INFO [11-05|16:22:11] -------Received VotingInstructionMsg------- 
+viHR: H: 1 R: 2
+cmHR: H: 1 R: 2
+INFO [11-05|16:22:11] --------------------------------------- 
+# collMsig from = Peer d67104e65b61fca1 [eth/63]
+cmHR: H: 1 R: 2
+this is rm.proposerPeer  Peer d67104e65b61fca1 [eth/63]
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] in cm collectMsig,                       h=1 r=2
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] In addBlockCandidates!! 
+INFO [11-05|16:22:11] -------in handle VotingInstruction, success!------ 
+INFO [11-05|16:22:11] Handle BFT Msg,                          msg="msg #18 (662 bytes)"
+INFO [11-05|16:22:11] ------Received MsigProposalMsg------ 
+mpHR: H: 1 R: 2 hash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 2
+INFO [11-05|16:22:11] --------------------------------------- 
+H====:  1 P==== 2
+INFO [11-05|16:22:11] ------addmsigproposal success!------- 
+INFO [11-05|16:22:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:11] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 2
+INFO [11-05|16:22:11] --------------------------------------- 
+INFO [11-05|16:22:11] addVote to                               height=1 round=2 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:11] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:11] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:11] ---------------process------------------ 
+INFO [11-05|16:22:11] In RM Process                            height=1 round=2
+INFO [11-05|16:22:11] --------In rm.propose------- 
+INFO [11-05|16:22:11] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:11] in vote in RM                            height=1 round=2
+INFO [11-05|16:22:11] vote mp 
+INFO [11-05|16:22:11] vote success in                          height=1 round=2
+INFO [11-05|16:22:11] Send VoteMsg 
+INFO [11-05|16:22:11] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] rm lockset is not valid yet 
+INFO [11-05|16:22:11] after cm.process() 
+INFO [11-05|16:22:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:11] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 2
+INFO [11-05|16:22:11] --------------------------------------- 
+INFO [11-05|16:22:11] addVote to                               height=1 round=2 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:11] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:11] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:11] ------Received VoteMsg------ 
+voteHR: H: 1 R: 2 voteType:: 1 voteHash: [97 62 183 34 107 183 90 254 10 37 143 29 8 14 21 163 81 10 11 42 5 16 190 86 34 30 157 240 159 147 22 149]
+cmHR: H: 1 R: 2
+INFO [11-05|16:22:11] --------------------------------------- 
+INFO [11-05|16:22:11] addVote to                               height=1 round=2 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:11] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:11] received NewBlockMsg! 
+INFO [11-05|16:22:11] ***in BFT.VVVVerifyHeader*** 
+INFO [11-05|16:22:11] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:11] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:11] In verifyVotes 
+INFO [11-05|16:22:11] ***in sync.request()*** 
+INFO [11-05|16:22:11] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:11] ---------------process------------------ 
+INFO [11-05|16:22:11] In RM Process                            height=1 round=2
+INFO [11-05|16:22:11] --------In rm.propose------- 
+INFO [11-05|16:22:11] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:11] voted 
+INFO [11-05|16:22:11] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] There is a quorum                        height=1 round=2
+--- in rm.process p.id: --- Peer d67104e65b61fca1 [eth/63]
+INFO [11-05|16:22:11] ============in cm.commitLockset============ 
+INFO [11-05|16:22:11] in commitLockset, check ls HasQuorum 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] cm.found is not nil 
+INFO [11-05|16:22:11] store lockset 
+peerid: d67104e65b61fca1
+INFO [11-05|16:22:11] ---storeLockset--- 
+INFO [11-05|16:22:11] have a consensus on the block 
+INFO [11-05|16:22:11] result.Header().Coinbase != b.signer 
+result.Header().Coinbase: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241] b.signer: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+ConsensusTime, 12678588583 , txs, 1598 , blockNum, 1
+FinishedConsensus, 1541406131361964000
+INFO [11-05|16:22:11] result is nil 
+INFO [11-05|16:22:11] === Finished Mine() === 
+cmH 1
+INFO [11-05|16:22:11] after cm.process() 
+INFO [11-05|16:22:11] in validatorCommit1 
+pid: d67104e65b61fca1
+block number 1
+-------in NewBFTValidatorBlock-------
+INFO [11-05|16:22:11] in validatorCommit2 
+validatorCommit time: 304.419µs
+INFO [11-05|16:22:11] **in eth.handler**, get result from ch 
+INFO [11-05|16:22:11] received NewBlockMsg! 
+INFO [11-05|16:22:11] In verifyVotes 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:11] ***in BFT.VerifyHeaderSSSS*** 
+INFO [11-05|16:22:11] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:11] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:11] In verifyVotes 
+INFO [11-05|16:22:11] in HasQuorum 
+INFO [11-05|16:22:11] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:13] Imported new chain segment               blocks=1 txs=1598 mgas=33.558 elapsed=1.761s    mgasps=19.050 number=1 hash=613eb7…931695
+FinishedPostExec, 1541406133296825000 , txs, 1598
+PostExecTime, 1.761574791s
+INFO [11-05|16:22:13] in pool.evenLoop, call pool.resetState 
+INFO [11-05|16:22:15] Commit new mining work                   number=2 txs=1599 uncles=0 elapsed=2.469s
+INFO [11-05|16:22:15] Sealing                                  block n=2
+StartConsensus, 1541406135766548000
+INFO [11-05|16:22:15] Start Process 
+INFO [11-05|16:22:15] in cm.Process, check lastCommittingLockset() 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 2
+INFO [11-05|16:22:15] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:15] ---------------process------------------ 
+INFO [11-05|16:22:15] In RM Process                            height=2 round=0
+INFO [11-05|16:22:15] --------In rm.propose------- 
+INFO [11-05|16:22:15] I am a proposer in                       height=2 round=0
+INFO [11-05|16:22:15] in propose, check lastRoundLockset 
+lastRoundLockset, hm.activeround: 0
+INFO [11-05|16:22:15] ------in mkProposal------ 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] LockSet(R-1) is nil (rm.round should equal to zero) 
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+Create block blockhash :  [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228]
+INFO [11-05|16:22:15] In addBlockCandidates!! 
+INFO [11-05|16:22:15] Send NewBlockProposalMsg:                LOG15_ERROR=                                                   LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [11-05|16:22:15] Handle BFT Msg,                          msg="msg #18 (662 bytes)"
+INFO [11-05|16:22:15] ------Received MsigProposalMsg------ 
+mpHR: H: 2 R: 0 hash: [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228]
+cmHR: H: 2 R: 0
+INFO [11-05|16:22:15] --------------------------------------- 
+H====:  2 P==== 0
+INFO [11-05|16:22:15] In addMsig I am leader 
+mp= &{0xc42ad8a180 27 10222498212873505071558531197916131219749787146878242072995334359024072650657 36723359120987091082944202387364502852692695705103700603285230712384605598335 0xc427907c80 2 0 [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228] 0xc4284c5ea0 0xc4284c5ef0}
+cosiproposal =nil !
+ mp=  &{0xc42ad8a180 27 10222498212873505071558531197916131219749787146878242072995334359024072650657 36723359120987091082944202387364502852692695705103700603285230712384605598335 0xc427907c80 2 0 [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228] 0xc4284c5ea0 0xc4284c5ef0}
+cosiproposal =  <nil>
+INFO [11-05|16:22:15] in bfthandler Send MsigProposalMsg 
+INFO [11-05|16:22:15] Sending MsigProposalMsg 
+INFO [11-05|16:22:15] Sending MsigProposalMsg 
+INFO [11-05|16:22:15] Sending MsigProposalMsg 
+INFO [11-05|16:22:15] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:15] in vote in RM                            height=2 round=0
+INFO [11-05|16:22:15] Timeout time not reach, curr vs timeout: curr=1541406135.000 timeout=1541406140.000
+INFO [11-05|16:22:15] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] rm lockset is not valid yet 
+INFO [11-05|16:22:15] after cm.process() 
+INFO [11-05|16:22:15] ------addmsigproposal success!------- 
+INFO [11-05|16:22:15] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:15] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228]
+cmHR: H: 2 R: 0
+INFO [11-05|16:22:15] --------------------------------------- 
+INFO [11-05|16:22:15] addVote to                               height=2 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:15] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:15] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:15] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228]
+cmHR: H: 2 R: 0
+INFO [11-05|16:22:15] --------------------------------------- 
+INFO [11-05|16:22:15] addVote to                               height=2 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:15] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:15] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:15] ------Received VoteMsg------ 
+voteHR: H: 2 R: 0 voteType:: 1 voteHash: [169 42 42 238 97 15 134 181 148 10 100 252 51 133 240 201 203 65 42 142 73 241 21 89 153 168 4 125 33 216 28 228]
+cmHR: H: 2 R: 0
+INFO [11-05|16:22:15] --------------------------------------- 
+INFO [11-05|16:22:15] addVote to                               height=2 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:15] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:15] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:15] ---------------process------------------ 
+INFO [11-05|16:22:15] In RM Process                            height=2 round=0
+INFO [11-05|16:22:15] --------In rm.propose------- 
+INFO [11-05|16:22:15] I am a proposer in                       height=2 round=0
+INFO [11-05|16:22:15] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:15] in vote in RM                            height=2 round=0
+INFO [11-05|16:22:15] vote mp 
+INFO [11-05|16:22:15] vote success in                          height=2 round=0
+INFO [11-05|16:22:15] Send VoteMsg 
+INFO [11-05|16:22:15] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] There is a quorum                        height=2 round=0
+INFO [11-05|16:22:15] ============in cm.commitLockset============ 
+INFO [11-05|16:22:15] in commitLockset, check ls HasQuorum 
+INFO [11-05|16:22:15] in HasQuorum 
+INFO [11-05|16:22:15] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:15] cm.found is not nil 
+INFO [11-05|16:22:15] store lockset 
+INFO [11-05|16:22:15] have a consensus on the block 
+ConsensusTime, 151086802 , txs, 1599 , blockNum, 2
+FinishedConsensus, 1541406135917603000
+INFO [11-05|16:22:15] Successfully sealed new block            number=2 hash=a92a2a…d81ce4
+INFO [11-05|16:22:15] === Finished Mine() === 
+INFO [11-05|16:22:15] ---storeLockset--- 
+INFO [11-05|16:22:15] after cm.process() 
+INFO [11-05|16:22:15] 🔨 mined potential block                  number=2 hash=a92a2a…d81ce4
+INFO [11-05|16:22:15] in pool.evenLoop, call pool.resetState 
+INFO [11-05|16:22:16] received NewBlockMsg! 
+INFO [11-05|16:22:16] received NewBlockMsg! 
+INFO [11-05|16:22:18] Commit new mining work                   number=3 txs=1599 uncles=0 elapsed=2.762s
+INFO [11-05|16:22:18] Sealing                                  block n=3
+StartConsensus, 1541406138720210000
+INFO [11-05|16:22:18] Start Process 
+INFO [11-05|16:22:18] in cm.Process, check lastCommittingLockset() 
+INFO [11-05|16:22:18] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:18] in HasQuorum 
+INFO [11-05|16:22:18] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 3
+INFO [11-05|16:22:18] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:18] ---------------process------------------ 
+INFO [11-05|16:22:18] In RM Process                            height=3 round=0
+INFO [11-05|16:22:18] --------In rm.propose------- 
+INFO [11-05|16:22:18] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:18] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:18] Timeout time not reach, curr vs timeout: curr=1541406138.000 timeout=1541406143.000
+INFO [11-05|16:22:18] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:18] in HasQuorum 
+INFO [11-05|16:22:18] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:18] rm lockset is not valid yet 
+INFO [11-05|16:22:18] after cm.process() 
+INFO [11-05|16:22:18] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:18] ---------------process------------------ 
+INFO [11-05|16:22:18] In RM Process                            height=3 round=0
+INFO [11-05|16:22:18] --------In rm.propose------- 
+INFO [11-05|16:22:18] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:18] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:18] Timeout time not reach, curr vs timeout: curr=1541406138.000 timeout=1541406143.000
+INFO [11-05|16:22:18] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:18] in HasQuorum 
+INFO [11-05|16:22:18] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:18] rm lockset is not valid yet 
+INFO [11-05|16:22:18] after cm.process() 
+INFO [11-05|16:22:18] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:18] ---------------process------------------ 
+INFO [11-05|16:22:18] In RM Process                            height=3 round=0
+INFO [11-05|16:22:18] --------In rm.propose------- 
+INFO [11-05|16:22:18] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:18] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:18] Timeout time not reach, curr vs timeout: curr=1541406138.000 timeout=1541406143.000
+INFO [11-05|16:22:18] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:18] in HasQuorum 
+INFO [11-05|16:22:18] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:18] rm lockset is not valid yet 
+INFO [11-05|16:22:18] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] Handle BFT Msg,                          msg="msg #11 (173336 bytes)"
+INFO [11-05|16:22:19] -------Received NewBlockProposalMsg------- 
+bpHR: H: 3 R: 0
+cmHR: H: 3 R: 0
+INFO [11-05|16:22:19] --------------------------------------- 
+# collMsig from = Peer d9d5b902798f5c42 [eth/63]
+cmHR: H: 3 R: 0
+this is rm.proposerPeer  Peer d9d5b902798f5c42 [eth/63]
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [11-05|16:22:19] cm add BlockProposal                     h=3 r=0
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] In addBlockCandidates!! 
+INFO [11-05|16:22:19] -------in handle NewBlockProposalMsg, success!------- 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] Timeout time not reach, curr vs timeout: curr=1541406139.000 timeout=1541406143.000
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] Handle BFT Msg,                          msg="msg #18 (662 bytes)"
+INFO [11-05|16:22:19] ------Received MsigProposalMsg------ 
+mpHR: H: 3 R: 0 hash: [168 136 255 166 123 141 95 95 252 248 89 7 221 76 6 70 173 151 189 47 216 75 51 187 144 217 63 29 195 215 202 255]
+cmHR: H: 3 R: 0
+INFO [11-05|16:22:19] --------------------------------------- 
+H====:  3 P==== 0
+INFO [11-05|16:22:19] ------addmsigproposal success!------- 
+INFO [11-05|16:22:19] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:19] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [168 136 255 166 123 141 95 95 252 248 89 7 221 76 6 70 173 151 189 47 216 75 51 187 144 217 63 29 195 215 202 255]
+cmHR: H: 3 R: 0
+INFO [11-05|16:22:19] --------------------------------------- 
+INFO [11-05|16:22:19] addVote to                               height=3 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:19] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] in vote in RM                            height=3 round=0
+INFO [11-05|16:22:19] vote mp 
+INFO [11-05|16:22:19] vote success in                          height=3 round=0
+INFO [11-05|16:22:19] Send VoteMsg 
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:19] ---------------process------------------ 
+INFO [11-05|16:22:19] In RM Process                            height=3 round=0
+INFO [11-05|16:22:19] --------In rm.propose------- 
+INFO [11-05|16:22:19] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:19] voted 
+INFO [11-05|16:22:19] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:19] in HasQuorum 
+INFO [11-05|16:22:19] In IsValid() 
+len(lockset.Votes): 2 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:19] rm lockset is not valid yet 
+INFO [11-05|16:22:19] after cm.process() 
+INFO [11-05|16:22:19] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:19] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [168 136 255 166 123 141 95 95 252 248 89 7 221 76 6 70 173 151 189 47 216 75 51 187 144 217 63 29 195 215 202 255]
+cmHR: H: 3 R: 0
+INFO [11-05|16:22:19] --------------------------------------- 
+INFO [11-05|16:22:19] addVote to                               height=3 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:19] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:19] received NewBlockMsg! 
+INFO [11-05|16:22:19] ***in BFT.VVVVerifyHeader*** 
+INFO [11-05|16:22:19] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:19] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:19] In verifyVotes 
+INFO [11-05|16:22:19] ***in sync.request()*** 
+INFO [11-05|16:22:20] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:20] ------Received VoteMsg------ 
+voteHR: H: 3 R: 0 voteType:: 1 voteHash: [168 136 255 166 123 141 95 95 252 248 89 7 221 76 6 70 173 151 189 47 216 75 51 187 144 217 63 29 195 215 202 255]
+cmHR: H: 3 R: 0
+INFO [11-05|16:22:20] --------------------------------------- 
+INFO [11-05|16:22:20] addVote to                               height=3 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:20] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:20] received NewBlockMsg! 
+INFO [11-05|16:22:20] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:20] ---------------process------------------ 
+INFO [11-05|16:22:20] In RM Process                            height=3 round=0
+INFO [11-05|16:22:20] --------In rm.propose------- 
+INFO [11-05|16:22:20] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:20] voted 
+INFO [11-05|16:22:20] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:20] in HasQuorum 
+INFO [11-05|16:22:20] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:20] There is a quorum                        height=3 round=0
+--- in rm.process p.id: --- Peer d9d5b902798f5c42 [eth/63]
+INFO [11-05|16:22:20] ============in cm.commitLockset============ 
+INFO [11-05|16:22:20] in commitLockset, check ls HasQuorum 
+INFO [11-05|16:22:20] in HasQuorum 
+INFO [11-05|16:22:20] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:20] cm.found is not nil 
+INFO [11-05|16:22:20] store lockset 
+peerid: d9d5b902798f5c42
+INFO [11-05|16:22:20] have a consensus on the block 
+cmH 3
+INFO [11-05|16:22:20] result.Header().Coinbase != b.signer 
+INFO [11-05|16:22:20] in validatorCommit1 
+result.Header().Coinbase: [89 132 67 241 136 14 245 133 178 31 29 117 133 189 5 119 64 40 97 229] b.signer: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:22:20] ---storeLockset--- 
+ConsensusTime, 1350406117 , txs, 1599 , blockNum, 3
+FinishedConsensus, 1541406140070517000
+INFO [11-05|16:22:20] result is nil 
+pid: d9d5b902798f5c42
+block number 3
+-------in NewBFTValidatorBlock-------
+INFO [11-05|16:22:20] after cm.process() 
+INFO [11-05|16:22:20] === Finished Mine() === 
+INFO [11-05|16:22:20] in validatorCommit2 
+validatorCommit time: 260.123µs
+INFO [11-05|16:22:20] **in eth.handler**, get result from ch 
+INFO [11-05|16:22:20] In verifyVotes 
+INFO [11-05|16:22:20] in HasQuorum 
+INFO [11-05|16:22:20] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:20] ***in BFT.VerifyHeaderSSSS*** 
+INFO [11-05|16:22:20] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:20] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:20] In verifyVotes 
+INFO [11-05|16:22:20] in HasQuorum 
+INFO [11-05|16:22:20] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:22] Imported new chain segment               blocks=1 txs=1599 mgas=33.579 elapsed=1.993s    mgasps=16.845 number=3 hash=a888ff…d7caff
+FinishedPostExec, 1541406142188579000 , txs, 1599
+PostExecTime, 1.993459477s
+INFO [11-05|16:22:22] in pool.evenLoop, call pool.resetState 
+INFO [11-05|16:22:24] Commit new mining work                   number=4 txs=1600 uncles=0 elapsed=2.108s
+INFO [11-05|16:22:24] Sealing                                  block n=4
+StartConsensus, 1541406144297530000
+INFO [11-05|16:22:24] Start Process 
+INFO [11-05|16:22:24] in cm.Process, check lastCommittingLockset() 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+=====CM.COINBASE IS:===== [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13] block number is: 4
+INFO [11-05|16:22:24] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:24] ---------------process------------------ 
+INFO [11-05|16:22:24] In RM Process                            height=4 round=0
+INFO [11-05|16:22:24] --------In rm.propose------- 
+INFO [11-05|16:22:24] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:24] in vote in RM                            height=4 round=0
+INFO [11-05|16:22:24] Timeout time not reach, curr vs timeout: curr=1541406144.000 timeout=1541406149.000
+INFO [11-05|16:22:24] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] rm lockset is not valid yet 
+INFO [11-05|16:22:24] after cm.process() 
+INFO [11-05|16:22:24] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:24] ---------------process------------------ 
+INFO [11-05|16:22:24] In RM Process                            height=4 round=0
+INFO [11-05|16:22:24] --------In rm.propose------- 
+INFO [11-05|16:22:24] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:24] in vote in RM                            height=4 round=0
+INFO [11-05|16:22:24] Timeout time not reach, curr vs timeout: curr=1541406144.000 timeout=1541406149.000
+INFO [11-05|16:22:24] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] rm lockset is not valid yet 
+INFO [11-05|16:22:24] after cm.process() 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #11 (173836 bytes)"
+INFO [11-05|16:22:24] -------Received NewBlockProposalMsg------- 
+bpHR: H: 4 R: 0
+cmHR: H: 4 R: 0
+INFO [11-05|16:22:24] --------------------------------------- 
+# collMsig from = Peer d67104e65b61fca1 [eth/63]
+cmHR: H: 4 R: 0
+this is rm.proposerPeer  Peer d67104e65b61fca1 [eth/63]
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 0 lockset.EligibleVotesNum: 0
+INFO [11-05|16:22:24] cm add BlockProposal                     h=4 r=0
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 4 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] In addBlockCandidates!! 
+INFO [11-05|16:22:24] -------in handle NewBlockProposalMsg, success!------- 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #18 (662 bytes)"
+INFO [11-05|16:22:24] ------Received MsigProposalMsg------ 
+mpHR: H: 4 R: 0 hash: [6 62 153 238 225 124 204 233 182 209 255 168 245 117 166 141 70 240 54 15 144 45 146 55 86 21 43 203 132 71 114 163]
+cmHR: H: 4 R: 0
+INFO [11-05|16:22:24] --------------------------------------- 
+H====:  4 P==== 0
+INFO [11-05|16:22:24] ------addmsigproposal success!------- 
+INFO [11-05|16:22:24] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:24] ---------------process------------------ 
+INFO [11-05|16:22:24] In RM Process                            height=4 round=0
+INFO [11-05|16:22:24] --------In rm.propose------- 
+INFO [11-05|16:22:24] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:24] in vote in RM                            height=4 round=0
+INFO [11-05|16:22:24] vote mp 
+INFO [11-05|16:22:24] vote success in                          height=4 round=0
+INFO [11-05|16:22:24] Send VoteMsg 
+INFO [11-05|16:22:24] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 1 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] rm lockset is not valid yet 
+INFO [11-05|16:22:24] after cm.process() 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:24] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [6 62 153 238 225 124 204 233 182 209 255 168 245 117 166 141 70 240 54 15 144 45 146 55 86 21 43 203 132 71 114 163]
+cmHR: H: 4 R: 0
+INFO [11-05|16:22:24] --------------------------------------- 
+INFO [11-05|16:22:24] addVote to                               height=4 round=0 from=0x7d577a597b2742b498cb5cf0c26cdcd726d39e6e success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:24] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:24] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 1 voteHash: [6 62 153 238 225 124 204 233 182 209 255 168 245 117 166 141 70 240 54 15 144 45 146 55 86 21 43 203 132 71 114 163]
+cmHR: H: 4 R: 0
+INFO [11-05|16:22:24] --------------------------------------- 
+INFO [11-05|16:22:24] addVote to                               height=4 round=0 from=0x82a978b3f5962a5b0957d9ee9eef472ee55b42f1 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:24] ------in handle VoteMsg, success!------ 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:24] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  6d11b37ef4fc909a
+INFO [11-05|16:22:24] Request future block 
+INFO [11-05|16:22:24] case: default, cm.process 
+ready: 4 need: 2.6666667
+INFO [11-05|16:22:24] ---------------process------------------ 
+INFO [11-05|16:22:24] In RM Process                            height=4 round=0
+INFO [11-05|16:22:24] --------In rm.propose------- 
+INFO [11-05|16:22:24] ---------------in rm.vote----------------- 
+INFO [11-05|16:22:24] voted 
+INFO [11-05|16:22:24] in rm.process, check lockset HasQuorum 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] There is a quorum                        height=4 round=0
+--- in rm.process p.id: --- Peer d67104e65b61fca1 [eth/63]
+INFO [11-05|16:22:24] ============in cm.commitLockset============ 
+INFO [11-05|16:22:24] in commitLockset, check ls HasQuorum 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] cm.found is not nil 
+INFO [11-05|16:22:24] store lockset 
+peerid: d67104e65b61fca1
+INFO [11-05|16:22:24] have a consensus on the block 
+cmH 4
+INFO [11-05|16:22:24] result.Header().Coinbase != b.signer 
+INFO [11-05|16:22:24] in validatorCommit1 
+result.Header().Coinbase: [130 169 120 179 245 150 42 91 9 87 217 238 158 239 71 46 229 91 66 241] b.signer: [220 236 234 243 252 92 10 99 209 149 214 155 26 144 1 27 123 25 101 13]
+INFO [11-05|16:22:24] ---storeLockset--- 
+ConsensusTime, 310423684 , txs, 1600 , blockNum, 4
+FinishedConsensus, 1541406144608000000
+pid: d67104e65b61fca1
+INFO [11-05|16:22:24] result is nil 
+block number 4
+-------in NewBFTValidatorBlock-------
+INFO [11-05|16:22:24] === Finished Mine() === 
+INFO [11-05|16:22:24] after cm.process() 
+INFO [11-05|16:22:24] in validatorCommit2 
+validatorCommit time: 227.967µs
+INFO [11-05|16:22:24] **in eth.handler**, get result from ch 
+INFO [11-05|16:22:24] ***in BFT.VVVVerifyHeader*** 
+INFO [11-05|16:22:24] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:24] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:24] In verifyVotes 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] ***in BFT.VerifyHeaderSSSS*** 
+INFO [11-05|16:22:24] ***in BFT.verifyHeader*** 
+INFO [11-05|16:22:24] ***in BFT.verifySeal*** 
+INFO [11-05|16:22:24] In verifyVotes 
+INFO [11-05|16:22:24] in HasQuorum 
+INFO [11-05|16:22:24] In IsValid() 
+len(lockset.Votes): 3 lockset.EligibleVotesNum: 4
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:24] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:24] Request future block 
+INFO [11-05|16:22:24] received NewBlockMsg! 
+INFO [11-05|16:22:24] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:24] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:24] Request future block 
+INFO [11-05|16:22:25] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:25] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:25] Request future block 
+INFO [11-05|16:22:25] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:25] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:25] Request future block 
+INFO [11-05|16:22:25] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:25] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:25] Request future block 
+INFO [11-05|16:22:25] Handle BFT Msg,                          msg="msg #9 (3 bytes)"
+INFO [11-05|16:22:25] -------GetLocksetsMsg------- 
+GetLockSetsMsg request:  [{4}] from:  d9d5b902798f5c42
+INFO [11-05|16:22:25]  Sending Lockset                         LOG15_ERROR=                                                   LOG15_ERROR="Normalized odd number of arguments by adding nil"
+INFO [11-05|16:22:25] Imported new chain segment               blocks=1 txs=1600 mgas=33.600 elapsed=1.243s    mgasps=27.018 number=4 hash=063e99…4772a3
+FinishedPostExec, 1541406145852283000 , txs, 1600
+PostExecTime, 1.243637565s
+INFO [11-05|16:22:25] in pool.evenLoop, call pool.resetState 
+INFO [11-05|16:22:26] Handle BFT Msg,                          msg="msg #17 (107 bytes)"
+INFO [11-05|16:22:26] ------Received VoteMsg------ 
+voteHR: H: 4 R: 0 voteType:: 2 voteHash: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+cmHR: H: 5 R: 0
+INFO [11-05|16:22:26] --------------------------------------- 
+INFO [11-05|16:22:26] addVote to                               height=4 round=0 from=0x598443f1880ef585b21f1d7585bd0577402861e5 success=true cm.coinbase=0xdceceaf3fc5c0a63d195d69b1a90011b7b19650d
+INFO [11-05|16:22:26] ------in handle VoteMsg, success!------ 
+./node3.sh: line 16: 46407 Terminated: 15          ../build/bin/geth --networkid 2234 --port 30305 --rpcport 8547 --datadir "data/node3" --nodiscover --rpc --rpccorsdomain "*" --rpcapi "eth,net,web3,debug" --bft --allow-empty --num-validators 4 --node-num 2
