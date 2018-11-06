@@ -660,10 +660,12 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		cm.writeMapMu.Unlock()
 	}
 	*/
+	/*
 	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
 		log.Debug("msigProposal have not finished yet")
 		return false
 	}
+	*/
 
 	
 	//jianwei
@@ -679,7 +681,11 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		rm.cosiproposal=mp
 		//fmt.Println("cosip==",rm.cosiproposal)
 		}else{
-		
+		if !rm.cosiproposal.CombineSign(mp.GetMsig()){
+		log.Debug("combine error!")
+		return false
+
+		}
 		//fmt.Println("mp=",mp)
 		//fmt.Println("cosip=",rm.cosiproposal)
 		}	
@@ -702,6 +708,7 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 	cm.getHeightMu.Unlock()
 	return isValid
 }
+
 
 func (cm *ConsensusManager) collectMsig(p btypes.Proposal, peer *peer) bool {
 	// collect multisignature

@@ -1136,7 +1136,8 @@ type Proposal interface {
 	Blockhash() common.Hash
 	LockSet() *LockSet
 
-	GetMsig()*MsigSet
+	GetMsig()*MsigSet //GetMsig
+	CombineSign(Msig *MsigSet)bool
 	//msig
 	Msign(prv *ecdsa.PrivateKey, addr common.Address) error
 	MsigFinished(msigProposers []common.Address) bool
@@ -1274,6 +1275,13 @@ func (mp *MsigProposal)GetMsig()*MsigSet {
 
 return mp.Msig
 	}
+///this is CombineSign
+func (mp *MsigProposal)CombineSign(Msig *MsigSet) bool {
+	log.Info("this is combineSign!!!!")
+	//fmt.Println("mp=",mp.GetMsig())
+	fmt.Println("Msig=",Msig)
+	return true
+}
 
 func (mp *MsigProposal) MsigFinished(msigProposers []common.Address) bool {
 	log.Info("in MsigFinished")
@@ -1500,6 +1508,11 @@ func (bp *BlockProposal)GetMsig()*MsigSet {
 return nil
 
 }
+///this is CombineSign
+func (bp *BlockProposal)CombineSign(Msig *MsigSet) bool {
+
+return false	
+}
 
 func (bp *BlockProposal) MsigFinished(msigProposers []common.Address) bool {
 	return false
@@ -1650,7 +1663,12 @@ func (vi *VotingInstruction) Msign(prv *ecdsa.PrivateKey, addr common.Address) e
 func (vi *VotingInstruction)GetMsig()*MsigSet {
 
 return nil
-	}
+}
+/// this is combine
+func (vi *VotingInstruction)CombineSign(Msig *MsigSet) bool {
+
+return false	
+}
 func (vi *VotingInstruction) MsigFinished(msigProposers []common.Address) bool {
 	return false
 }
