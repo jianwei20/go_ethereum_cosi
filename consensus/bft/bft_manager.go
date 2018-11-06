@@ -659,11 +659,12 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		cm.readyValidators[addr] = struct{}{}
 		cm.writeMapMu.Unlock()
 	}
+	*/
 	if !mp.MsigFinished(cm.contract.msigProposers(mp.GetHeight(), mp.GetRound())) {
 		log.Debug("msigProposal have not finished yet")
 		return false
 	}
-*/
+
 	
 	//jianwei
 	rm := cm.getHeightManager(cm.Height()).getRoundManager(cm.Round())
@@ -672,11 +673,13 @@ func (cm *ConsensusManager) AddMsigProposal(mp btypes.Proposal, peer *peer) bool
 		log.Info("In addMsig I am leader")
 		//fmt.Println("mp=",mp)
 	if rm.cosiproposal==nil{
-		//fmt.Println("mp=",mp)
+		fmt.Println("mp=",mp.GetMsig().MsigAddrs)
 		//fmt.Println("cosip=",rm.cosiproposal)
+		//rm.cosiproposal, _ := btypes.NewMsigProposal(cm.Height(), cm.Round(), mp)
 		rm.cosiproposal=mp
 		//fmt.Println("cosip==",rm.cosiproposal)
 		}else{
+		
 		//fmt.Println("mp=",mp)
 		//fmt.Println("cosip=",rm.cosiproposal)
 		}	

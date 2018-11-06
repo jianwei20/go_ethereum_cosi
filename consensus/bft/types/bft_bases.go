@@ -1136,6 +1136,7 @@ type Proposal interface {
 	Blockhash() common.Hash
 	LockSet() *LockSet
 
+	GetMsig()*MsigSet
 	//msig
 	Msign(prv *ecdsa.PrivateKey, addr common.Address) error
 	MsigFinished(msigProposers []common.Address) bool
@@ -1268,6 +1269,11 @@ func (mp *MsigProposal) Msign(prv *ecdsa.PrivateKey, addr common.Address) error 
 	}
 	return nil
 }
+////// this
+func (mp *MsigProposal)GetMsig()*MsigSet {
+
+return mp.Msig
+	}
 
 func (mp *MsigProposal) MsigFinished(msigProposers []common.Address) bool {
 	log.Info("in MsigFinished")
@@ -1488,6 +1494,12 @@ func (bp *BlockProposal) SigHash() common.Hash {
 func (bp *BlockProposal) Msign(prv *ecdsa.PrivateKey, addr common.Address) error {
 	return nil
 }
+////// this
+func (bp *BlockProposal)GetMsig()*MsigSet {
+
+return nil
+
+}
 
 func (bp *BlockProposal) MsigFinished(msigProposers []common.Address) bool {
 	return false
@@ -1633,7 +1645,12 @@ func NewVotingInstruction(height uint64, round uint64, block *types.Block, round
 func (vi *VotingInstruction) Msign(prv *ecdsa.PrivateKey, addr common.Address) error {
 	return nil
 }
+//// this 
 
+func (vi *VotingInstruction)GetMsig()*MsigSet {
+
+return nil
+	}
 func (vi *VotingInstruction) MsigFinished(msigProposers []common.Address) bool {
 	return false
 }
